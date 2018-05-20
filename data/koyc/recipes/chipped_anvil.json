@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+	"group": "anvil",
+	"ingredients": [
+		{
+			"item": "minecraft:damaged_anvil"
+		},
+		{
+			"item": "minecraft:damaged_anvil"
+		}
+	],
+    "result": {
+		"item": "minecraft:chipped_anvil"
+	}
+}

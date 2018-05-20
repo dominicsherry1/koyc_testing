@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+	"group": "wooden_trapdoor",
+	"ingredients": [
+		{
+			"item": "minecraft:oak_door"
+		}
+	],
+    "result": {
+		"item": "minecraft:oak_trapdoor",
+		"count": 2
+	}
+}

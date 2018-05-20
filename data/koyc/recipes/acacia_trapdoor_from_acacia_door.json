@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+	"group": "wooden_trapdoor",
+	"ingredients": [
+		{
+			"item": "minecraft:acacia_door"
+		}
+	],
+    "result": {
+		"item": "minecraft:acacia_trapdoor",
+		"count": 2
+	}
+}

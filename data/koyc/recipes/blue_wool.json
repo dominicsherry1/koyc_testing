@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "group": "wool",
+  "pattern": [
+	"###",
+	"#O#",
+	"###"
+  ],
+  "key": {
+	"#": {
+		"item": "minecraft:white_wool"
+	},
+	"O": {
+		"item": "minecraft:lapis_lazuli"
+	}
+  },
+  "result": {
+    "item": "minecraft:blue_wool",
+	"count": 8
+  }
+}

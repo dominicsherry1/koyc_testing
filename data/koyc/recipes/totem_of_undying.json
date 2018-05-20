@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:enchanted_golden_apple"
+		},
+		{
+			"item": "minecraft:totem_of_undying"
+		}
+	],
+    "result": {
+		"item": "minecraft:totem_of_undying",
+		"count": 2
+	}
+}

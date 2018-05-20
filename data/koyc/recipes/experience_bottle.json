@@ -1,0 +1,19 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		" N ",
+		"NON",
+		" N "
+	],
+	"key": {
+		"O": {
+			"item": "minecraft:glass_bottle"
+		},
+		"N": {
+			"item": "minecraft:gold_nugget"
+		}
+	},
+	"result": {
+		"item": "minecraft:experience_bottle"
+	}
+}
