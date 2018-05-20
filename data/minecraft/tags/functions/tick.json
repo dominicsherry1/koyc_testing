@@ -1,0 +1,17 @@
+{
+  "values": [
+	"koyc:armour_stands/armour_stands_ticked",
+	"koyc:deathpoints/deathpoints_ticked",
+	"koyc:daylight_spawnpoints/daylight_spawnpoints_ticked",
+	"koyc:head_sounds/head_sounds_ticked",
+	"koyc:no_bgm_for_jukeboxes/no_bgm_for_jukeboxes_ticked",
+	"koyc:one_player_sleeping/one_player_sleeping_ticked",
+	"koyc:pvp_toggle/pvp_toggle_ticked",
+	"koyc:safe_creepers/safe_creepers_ticked",
+	"koyc:teams/teams_ticked",
+	"koyc:combat_mode/combat_mode_ticked",
+	"koyc:sidebar_info/sidebar_info_ticked",
+	"koyc:options_menu/options_menu_ticked",
+	"koyc:datapack/welcome_message_ticked"
+  ]
+}
