@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:piston"
+        },
+        "title": "Moving Parts",
+        "description": "Craft a piston for your redstone contraptions"
+    },
+    "parent": "Mossynet:redstone/space_hopper",
+	"rewards": {
+		"function": "bc_rewards:mining/moving_parts"
+    },
+    "criteria": {
+        "piston": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:piston"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:diamond_ore"
+        },
+        "title": {
+            "text": "Lord Of The Grind"
+        },
+        "description": ["",{"text":"Branch for diamonds"},{"text":"\nTinFoilChef","color":"dark_gray","italic":true}],
+		"frame":"goal"
+	},
+	"parent":"hermitcraft:tfc/mining_king",
+	"criteria":{
+		"mine_diamonds": {
+			"trigger":"impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:tfc/lord_of_the_grind"
+	}
+}

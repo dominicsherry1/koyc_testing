@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cocoa_beans"
+		},
+		"title": "Full of Beans",
+		"description": "Obtain your first cocoa bean",
+		"frame": "goal"
+	},
+	"parent": "koyc:koyc/root",
+	"criteria": {
+		"cocoa_bean": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:cocoa_beans"
+					}
+				]
+			}
+		}
+	}
+}

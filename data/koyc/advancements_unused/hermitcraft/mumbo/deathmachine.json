@@ -1,0 +1,22 @@
+{
+	"display":{
+		"icon": {
+            "item": "minecraft:bed",
+			"data": 14
+        },
+        "title": {
+            "text": "Death Machine"
+        },
+        "description": ["",{"text":"Build yourself a fast, efficient death machine"},{"text":"\nMumbo","color":"dark_gray","italic":true}],
+		"frame":"challenge"
+	},
+	"parent":"hermitcraft:mumbo/remixed",
+	"criteria":{
+		"died_fast_enough": {
+			"trigger":"minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:mumbo/deathmachine"
+	}
+}

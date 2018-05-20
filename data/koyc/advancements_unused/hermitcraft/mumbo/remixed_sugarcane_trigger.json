@@ -1,0 +1,14 @@
+{
+	"parent":"hermitcraft:mumbo/spoon",
+	"criteria":{
+		"placed_sugarcane": {
+			"trigger":"minecraft:placed_block",
+			"conditions":{
+				"block":"minecraft:reeds"
+			}
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:mumbo/remixed_sugarcane_trigger"
+	}
+}

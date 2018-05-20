@@ -1,0 +1,26 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "title": {
+            "text": "Trading Woes"
+        },
+        "description": ["",{"text":"Villagers are far from harmless"},{"text":"\nXisuma","color":"dark_gray","italic":true}],
+		"frame":"challenge"
+	},
+	"parent":"hermitcraft:xisuma/heres_johnny",
+	"criteria":{
+		"killed_by_villager": {
+			"trigger":"minecraft:entity_killed_player",
+			"conditions":{
+				"entity":{
+					"type":"minecraft:villager"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:xisuma/trading_woes"
+	}
+}

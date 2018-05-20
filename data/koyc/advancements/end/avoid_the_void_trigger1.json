@@ -1,0 +1,18 @@
+{
+	"parent":"koyc:end/winging_it",
+	"criteria":{
+		"below_neg64": {
+			"trigger":"location",
+			"conditions":{
+				"position": {
+					"y": {
+						"max":-64
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function":"koyc:rewards/avoid_the_void_1"
+	}
+}

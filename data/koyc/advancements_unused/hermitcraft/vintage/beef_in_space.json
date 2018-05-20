@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:elytra"
+    },
+    "title": {
+      "text": "Beef in Space"
+    },
+    "description": ["",{"text": "Launch that space shuttle"},{"text": "\nVintageBeef","color": "dark_gray","italic": true}],
+    "frame": "challenge"
+  },
+  "parent": "hermitcraft:vintage/raw_beef",
+  "criteria": {
+    "above_1000": {
+      "trigger": "location",
+      "conditions": {
+        "position": {
+          "y": {
+            "min": 1000
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+		"function":"hermitcraft:vintage/beef_in_space"
+	}
+}

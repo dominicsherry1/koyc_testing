@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": "Sky High",
+        "description": "Fly up to the world height limit",
+        "frame": "goal"
+    },
+    "parent": "Mossynet:end/skys_the_limit",
+    "rewards": {
+        "function": "bc_rewards:adventure/sky_high"
+    },		
+    "criteria": {
+        "world_height": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"y": {
+						"min": 255.0
+					}
+				}
+            }
+        }	
+    }
+}

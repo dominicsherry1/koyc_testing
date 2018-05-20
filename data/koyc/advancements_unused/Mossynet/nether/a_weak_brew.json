@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion"
+        },
+        "title": "A Weak Brew",
+        "description": "Brew up a potion of Weakness"
+    },
+    "parent": "Mossynet:nether/local_brewery",
+	"rewards": {
+		"function": "bc_rewards:nether/a_weak_brew"
+    },	
+    "criteria": {
+        "potion": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:weakness"
+            }
+        }
+    }
+}

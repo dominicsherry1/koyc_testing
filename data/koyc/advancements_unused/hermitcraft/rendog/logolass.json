@@ -1,0 +1,29 @@
+{
+	"display":{
+		"icon": {
+            "item": "minecraft:diamond_axe"
+        },
+        "title": {
+            "text": "Logolass"
+        },
+        "description": ["",{"text":"Forge the ultimate axe!"},{"text":"\nRendog","color":"dark_gray","italic":true}],
+		"frame":"challenge"
+	},
+	"parent":"hermitcraft:rendog/a_true_logfella",
+	"criteria":{
+		"logolass_get": {
+			"trigger":"minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:diamond_axe",
+						"nbt": "{display:{Name:\"Logolass\"}}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:rendog/logolass"
+	}
+}

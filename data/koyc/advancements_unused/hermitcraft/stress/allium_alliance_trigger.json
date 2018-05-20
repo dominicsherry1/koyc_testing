@@ -1,0 +1,19 @@
+ {
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"have_flowers": {
+			"trigger":"inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:red_flower",
+						"data": 2
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:stress/allium_alliance_trigger"
+	}
+}

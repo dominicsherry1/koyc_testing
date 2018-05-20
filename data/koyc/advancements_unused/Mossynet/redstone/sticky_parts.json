@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sticky_piston"
+        },
+        "title": "Sticky Parts",
+        "description": "Craft a Sticky piston for your redstone contraptions"
+    },
+    "parent": "Mossynet:redstone/moving_parts",
+	"rewards": {
+		"function": "bc_rewards:mining/moving_parts"
+    },
+    "criteria": {
+        "piston": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sticky_piston"
+                    }
+                ]
+            }
+        }
+    }
+}

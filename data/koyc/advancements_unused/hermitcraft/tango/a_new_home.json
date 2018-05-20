@@ -1,0 +1,21 @@
+{
+	"parent": "hermitcraft:tango/boombox_backfire",
+	"display": {
+		"icon": {
+			"item": "minecraft:boat"
+		},
+		"title": {
+			"text": "A New Home"
+		},
+		"description": ["",{"text":"Shulkers don't belong in the overworld"},{"text":"\nTango","color":"dark_gray","italic":true}],
+		"frame": "challenge"
+	},
+	"criteria": {
+		"be_near_a_shulker_that_has_not_already_granted_this_advancement_to_someone_else_while_in_the_overworld": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:tango/a_new_home"
+	}
+}

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:armor_stand"
+        },
+        "title": "Armor Stand!",
+        "description": "Craft and place an Armor Stand!"
+    },
+    "parent": "Mossynet:building/a_masterpiece",
+	"rewards": {
+    },		  
+    "criteria": {
+        "jungle_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:armor_stand"
+                    }
+                ]
+            }
+        }
+    }       
+}

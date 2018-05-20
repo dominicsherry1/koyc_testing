@@ -1,0 +1,11 @@
+ {
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"get_fish": {
+			"trigger":"inventory_changed"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:cleo/all_the_fish_trigger"
+	}
+}

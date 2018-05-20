@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dropper"
+        },
+        "title": "Space Dropper",
+        "description": "Craft a dropper for item transportation"
+    },
+    "parent": "Mossynet:redstone/space_hopper",
+	"rewards": {
+    },
+    "criteria": {
+        "hopper": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dropper"
+                    }
+                ]
+            }
+        }
+    }
+}

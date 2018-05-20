@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pumpkin"
+        },
+        "title": "Poor Mans Hat!",
+        "description": "Harvest a Pumpkin!"
+    },
+    "parent": "Mossynet:husbandry/root",
+	"rewards": {
+    },
+    "criteria": {
+        "leather": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:pumpkin"
+                    }
+                ]
+            }
+        }
+    }
+}

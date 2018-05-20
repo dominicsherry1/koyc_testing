@@ -1,0 +1,21 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:emerald_block"
+        },
+        "title": {
+            "text": "Make it green!"
+        },
+        "description": ["",{"text":"Place 10 emerald blocks"},{"text":"\nHypno","color":"dark_gray","italic":true}],
+		"frame":"challenge"
+	},
+	"parent":"hermitcraft:hypno/build_a_temple",
+	"criteria":{
+		"have_saplings": {
+			"trigger":"impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:hypno/make_it_green"
+	}
+}

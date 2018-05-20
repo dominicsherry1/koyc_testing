@@ -1,0 +1,59 @@
+    {
+    	"display": {
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "title": "Fiery",
+        "description": "Obtain a fire related enchantment!",
+		"frame": "goal"
+    },
+    "parent": "Mossynet:mining/fortunate_son",
+    "rewards": {
+    },			
+    "criteria": {
+        "jungle_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                       "enchantments": [
+                            {
+                                "enchantment": "minecraft:flame"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "acacia_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                       "enchantments": [
+                            {
+                                "enchantment": "minecraft:fire_aspect",
+                                "levels": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+		"dark_oak_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "enchantments": [
+                            {
+                                "enchantment": "minecraft:fire_protection",
+                                "levels": 4
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+	}		
+}

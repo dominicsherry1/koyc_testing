@@ -1,0 +1,14 @@
+ {
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"build_beacon": {
+			"trigger":"placed_block",
+			"conditions":{
+				"block": "minecraft:beacon"
+			}
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:python/emerald_beacon_trigger"
+	}
+}

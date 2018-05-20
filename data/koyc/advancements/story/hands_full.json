@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:shield"
+		},
+		"title": "Hands Full",
+		"description": "Use both hands"
+	},
+	"parent": "minecraft:story/smelt_iron",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

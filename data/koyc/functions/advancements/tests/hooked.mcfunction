@@ -1,0 +1,2 @@
+execute as @a if score @s fish_caught matches 64.. run advancement grant @s only koyc:husbandry/hooked
+execute as @a if score @s fish_caught matches 64 run advancement revoke @s only koyc:husbandry/hooked_trigger

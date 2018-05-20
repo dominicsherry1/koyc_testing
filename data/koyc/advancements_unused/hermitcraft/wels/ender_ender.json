@@ -1,0 +1,21 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:ender_pearl"
+        },
+        "title": {
+            "text": "Ender Ender"
+        },
+        "description": ["",{"text":"Slay all the endermen"},{"text":"\nWelsknight","color":"dark_gray","italic":true}],
+		"frame":"goal"
+	},
+	"parent":"hermitcraft:wels/dwarven_mine",
+	"criteria":{
+		"kill_endermen": {
+			"trigger":"impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:wels/ender_ender"
+	}
+}

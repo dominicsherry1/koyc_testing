@@ -1,0 +1,96 @@
+{
+	"display":{
+		"icon": {
+            "item": "minecraft:painting"
+        },
+        "title": {
+            "text": "Open an art gallery"
+        },
+        "description": ["",{"text":"That's quite the collection you have"},{"text":"\nJoeHills","color":"dark_gray","italic":true}],
+		"frame":"goal"
+	},
+	"parent":"hermitcraft:joehills/poet",
+	"criteria":{
+		"placed_kebab": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_aztec": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_alban": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_aztec2": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_bomb": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_plant": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_wasteland": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_wanderer": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_graham": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_pool": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_courbet": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_sunset": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_sea": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_creebet": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_match": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_bust": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_stage": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_void": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_skullandroses": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_wither": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_fighters": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_skeleton": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_donkeykong": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_pointer": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_pigscene": {
+			"trigger":"minecraft:impossible"
+		},
+		"placed_burningskull": {
+			"trigger":"minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:joehills/artist"
+	}
+}

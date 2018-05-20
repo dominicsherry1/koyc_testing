@@ -1,0 +1,20 @@
+{
+	"display":{
+		"icon": {
+            "item": "minecraft:bowl"
+        },
+        "title": {
+            "text": "Biffa's Bowl"
+        },
+        "description": ["",{"text":"Throw it in the ocean"},{"text":"\nBiffa","color":"dark_gray","italic":true}]
+	},
+	"parent":"hermitcraft:biffa/root",
+	"criteria":{
+		"throw_bowl_into_ocean": {
+			"trigger":"minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:biffa/biffas_bowl"
+	}
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cake"
+        },
+        "title": "The Lie",
+        "description": "Wheat, sugar, milk and eggs!"
+    },
+    "parent": "Mossynet:husbandry/bake_bread",
+	"rewards": {
+		"function": "bc_rewards:farming/the_lie"
+    },		
+    "criteria": {
+        "cake": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cake"
+                    }
+                ]
+            }
+        }
+    }
+}

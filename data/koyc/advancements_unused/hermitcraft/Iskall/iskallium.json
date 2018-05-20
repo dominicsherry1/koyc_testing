@@ -1,0 +1,28 @@
+{
+	"display":{
+		"icon": {
+            "item": "minecraft:slime"
+        },
+        "title": {
+            "text": "Iskallium"
+        },
+        "description": ["",{"text":"Obtain this mysterious block"},{"text":"\nIskall85","color":"dark_gray","italic":true}]
+	},
+	"parent":"hermitcraft:iskall/root",
+	"criteria":{
+		"obtain_iskallium": {
+			"trigger":"minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:slime",
+						"nbt": "{display:{Name:\"Iskallium\"}}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:iskall/iskallium"
+	}
+}

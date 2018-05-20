@@ -1,0 +1,11 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:enchanting_table"
+		},
+		{
+			"title": "You're a Wizard, Harry",
+			"description": "Avadra Kedavra"
+		}
+	}
+}

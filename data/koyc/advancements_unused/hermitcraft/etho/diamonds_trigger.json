@@ -1,0 +1,11 @@
+{
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"lava_diamonds": {
+			"trigger":"minecraft:inventory_changed"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:etho/diamonds_trigger"
+	}
+}

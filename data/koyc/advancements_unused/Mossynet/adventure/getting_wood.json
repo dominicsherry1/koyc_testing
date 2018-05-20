@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:log"
+        },
+        "title": "Getting Wood!",
+        "description": "Attack a tree until a block of wood pops out!"
+    },
+    "parent": "Mossynet:adventure/root",
+	"rewards": {
+    },		  
+    "criteria": {
+        "jungle_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:log"
+                    }
+                ]
+            }
+        }
+    }       
+}

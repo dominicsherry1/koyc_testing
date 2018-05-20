@@ -1,0 +1,16 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:air"
+		},
+		"title": "Avoid the Void",
+		"description": "Bring rockets!",
+		"frame": "challenge"
+	},
+	"parent": "koyc:end/winging_it",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

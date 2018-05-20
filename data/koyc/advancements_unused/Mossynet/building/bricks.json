@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:brick_block"
+        },
+        "title": "Bricks!",
+        "description": "Fire that Clay!"
+    },
+    "parent": "Mossynet:building/play_dough",
+	"rewards": {
+    },	 
+    "criteria": {
+        "brick_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:brick_block"
+                    }
+                ]
+            }
+        }
+    }
+}

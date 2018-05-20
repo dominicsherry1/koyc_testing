@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skull",
+			"data": 3
+        },
+        "title": {
+            "text":"TangoTek"
+        },
+        "description": {
+            "text": "TangoTek's Challenges"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+	"parent":"hermitcraft:root",
+    "criteria": {
+        "empty": {
+            "trigger": "minecraft:location"
+		}
+	}
+}

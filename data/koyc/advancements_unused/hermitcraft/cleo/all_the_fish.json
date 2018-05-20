@@ -1,0 +1,29 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:fish"
+        },
+        "title": {
+            "text": "All The Fish"
+        },
+        "description": ["",{"text":"Remember the \"aquarium\"?"},{"text":"\nZombieCleo","color":"dark_gray","italic":true}]
+	},
+	"parent":"hermitcraft:cleo/root",
+	"criteria":{
+		"get_fish": {
+			"trigger":"impossible"
+		},
+		"get_salmon": {
+			"trigger":"impossible"
+		},
+		"get_clownfish": {
+			"trigger":"impossible"
+		},
+		"get_pufferfish": {
+			"trigger":"impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:cleo/all_the_fish"
+	}
+}

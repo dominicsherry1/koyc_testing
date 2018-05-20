@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:stonebrick",
+			"data": 3
+        },
+        "title": {
+            "text": "Build a temple!"
+        },
+        "description": ["",{"text":"In the jungle"},{"text":"\nHypno","color":"dark_gray","italic":true}],
+		"frame":"goal"
+	},
+	"parent":"hermitcraft:hypno/to_the_jungle",
+	"criteria":{
+		"build_temple": {
+			"trigger":"impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:hypno/build_a_temple"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"be_in_ocean_monument": {
+			"trigger":"minecraft:location",
+			"conditions": {
+				"feature": "Monument"
+			}
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:xbcrafted/make_it_home_trigger"
+	}
+}

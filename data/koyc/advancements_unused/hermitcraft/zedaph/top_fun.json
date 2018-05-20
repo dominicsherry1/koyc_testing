@@ -1,0 +1,20 @@
+{
+	"display":{
+		"icon": {
+            "item": "minecraft:lead"
+        },
+        "title": {
+            "text": "Top Fun"
+        },
+        "description": ["",{"text":"These sheep need wings"},{"text":"\nZedaph","color":"dark_gray","italic":true}]
+	},
+	"parent":"hermitcraft:zedaph/root",
+	"criteria":{
+		"fly_with_a_sheep": {
+			"trigger":"minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:zedaph/top_fun"
+	}
+}

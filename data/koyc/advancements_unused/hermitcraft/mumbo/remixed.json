@@ -1,0 +1,21 @@
+{
+	"display":{
+		"icon": {
+            "item": "minecraft:reeds"
+        },
+        "title": {
+            "text": "Remixed!"
+        },
+        "description": ["",{"text":"Sugarcane Pillar Sugarcane..."},{"text":"\nMumbo","color":"dark_gray","italic":true}],
+		"frame":"goal"
+	},
+	"parent":"hermitcraft:mumbo/spoon",
+	"criteria":{
+		"finish_sequence": {
+			"trigger":"minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:mumbo/remixed"
+	}
+}

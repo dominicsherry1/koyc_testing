@@ -1,0 +1,11 @@
+{
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"fly_with_sheep": {
+			"trigger":"minecraft:location"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:zedaph/top_fun_trigger"
+	}
+}

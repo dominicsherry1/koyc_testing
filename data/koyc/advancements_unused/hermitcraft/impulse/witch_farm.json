@@ -1,0 +1,20 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:glass_bottle"
+        },
+        "title": {
+            "text": "Build us a Witch farm"
+        },
+        "description": ["",{"text":"Impulse was brought here to farm witches!"},{"text":"\nImpulse","color":"dark_gray","italic":true}]
+	},
+	"parent":"hermitcraft:impulse/root",
+	"criteria":{
+		"kill_witches": {
+			"trigger":"impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:impulse/witch_farm"
+	}
+}

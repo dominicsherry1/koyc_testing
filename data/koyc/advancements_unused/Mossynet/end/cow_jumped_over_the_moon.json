@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:milk_bucket"
+        },
+        "title": "Cow jumped over the moon",
+        "description": "Bring a Cow from the Overworld to the End, and then kill it...",
+        "frame": "challenge"
+    },
+    "parent": "Mossynet:end/you_need_a_mint",
+	"rewards": {
+        "experience": 100
+    },	
+    "criteria": {
+        "killed_cow": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:cow",
+                    "location": {
+                        "dimension": "the_end"
+                    }
+                }
+            }
+        }
+    }
+}

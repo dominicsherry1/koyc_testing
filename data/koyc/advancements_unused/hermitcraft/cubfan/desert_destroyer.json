@@ -1,0 +1,21 @@
+{
+	"display":{
+		"icon": {
+            "item": "minecraft:sand"
+        },
+        "title": {
+            "text": "Desert Destroyer"
+        },
+        "description": ["",{"text":"You're gonna need a few shovels"},{"text":"\nCubfan135","color":"dark_gray","italic":true}],
+		"frame":"challenge"
+	},
+	"parent":"hermitcraft:cubfan/birchfella",
+	"criteria":{
+		"desert_destroyer": {
+			"trigger":"minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:cubfan/desert_destroyer"
+	}
+}

@@ -1,0 +1,1 @@
+scoreboard players set @a jumping_heads 0

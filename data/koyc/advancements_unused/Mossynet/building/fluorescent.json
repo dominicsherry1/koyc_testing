@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_rod"
+        },
+        "title": "Fluorescent!",
+        "description": "Light up with Fluorescent bulbs!"
+    },
+    "parent": "Mossynet:building/expensive",
+	"rewards": {
+    },	     
+    "criteria": {
+        "end_rod": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:end_rod"
+                    }
+                ]
+            }
+        }
+    }
+}

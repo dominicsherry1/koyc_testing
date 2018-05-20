@@ -1,0 +1,11 @@
+{
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"timer_ticking_down": {
+			"trigger":"minecraft:tick"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:mumbo/deathmachine_trigger"
+	}
+}

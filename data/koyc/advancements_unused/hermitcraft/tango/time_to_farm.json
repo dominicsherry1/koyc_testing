@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_block"
+        },
+        "title": {
+            "text":"Time to farm"
+        },
+        "description": ["",{"text":"Those Golems won't kill themselves!"},{"text":"\nTango","color":"dark_gray","italic":true}]
+    },
+	"parent":"hermitcraft:tango/root",
+    "criteria": {
+        "killed_10_golems": {
+            "trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:tango/time_to_farm"
+	}
+}

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dispenser"
+        },
+        "title": "Dispense This!",
+        "description": "Craft a dispenser"
+    },
+    "parent": "Mossynet:redstone/observer_buddy",
+	"rewards": {
+    },	
+    "criteria": {
+        "dispenser": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dispenser"
+                    }
+                ]
+            }
+        }
+    }
+}

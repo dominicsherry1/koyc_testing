@@ -1,0 +1,21 @@
+{
+	"parent": "minecraft:nether/root",
+	"criteria": {
+		"piggy_hurt_badly": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"dealt": {
+						"min": 1.5
+					}
+				},
+				"entity": {
+					"type": "minecraft:zombie_pigman"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "koyc:tests/piggy_in_the_middle"
+	}
+}

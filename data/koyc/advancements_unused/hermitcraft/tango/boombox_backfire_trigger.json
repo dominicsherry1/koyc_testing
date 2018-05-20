@@ -1,0 +1,11 @@
+{
+	"parent": "hermitcraft:root",
+	"criteria":{
+		"ticked": {
+			"trigger":"minecraft:tick"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:tango/boombox_backfire_trigger"
+	}
+}

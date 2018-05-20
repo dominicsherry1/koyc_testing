@@ -1,0 +1,73 @@
+{
+	"display":{
+		"icon": {
+            "item": "minecraft:sapling",
+			"data":1
+        },
+        "title": {
+            "text": "Growing leaves"
+        },
+        "description": ["",{"text":"All the trees!"},{"text":"\nScar","color":"dark_gray","italic":true}],
+		"frame":"goal"
+	},
+	"parent":"hermitcraft:scar/finding_jelly",
+	"criteria":{
+		"place_oak": {
+			"trigger":"minecraft:placed_block",
+			"conditions":{
+				"block": "minecraft:sapling",
+				"state" : {
+					"type":"oak"
+				}
+			}
+		},
+		"place_spruce": {
+			"trigger":"minecraft:placed_block",
+			"conditions":{
+				"block": "minecraft:sapling",
+				"state" : {
+					"type":"spruce"
+				}
+			}
+		},
+		"place_birch": {
+			"trigger":"minecraft:placed_block",
+			"conditions":{
+				"block": "minecraft:sapling",
+				"state" : {
+					"type":"birch"
+				}
+			}
+		},
+		"place_jungle": {
+			"trigger":"minecraft:placed_block",
+			"conditions":{
+				"block": "minecraft:sapling",
+				"state" : {
+					"type":"jungle"
+				}
+			}
+		},
+		"place_acacia": {
+			"trigger":"minecraft:placed_block",
+			"conditions":{
+				"block": "minecraft:sapling",
+				"state" : {
+					"type":"acacia"
+				}
+			}
+		},
+		"place_dark_oak": {
+			"trigger":"minecraft:placed_block",
+			"conditions":{
+				"block": "minecraft:sapling",
+				"state" : {
+					"type":"dark_oak"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:scar/growing_leaves"
+	}
+}

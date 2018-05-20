@@ -1,0 +1,21 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:emerald"
+        },
+        "title": {
+            "text": "Taxman"
+        },
+		"description": ["",{"text":"You owe us a stack"},{"text":"\nBdoubleO","color":"dark_gray","italic":true}],
+		"frame":"goal"
+	},
+	"parent":"hermitcraft:bdubs/the_old_school_way",
+	"criteria":{
+		"pickup_64_emeralds": {
+			"trigger":"impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:bdubs/taxman"
+	}
+}

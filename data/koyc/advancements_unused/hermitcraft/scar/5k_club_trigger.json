@@ -1,0 +1,12 @@
+{
+	"parent": "hermitcraft:root",
+    "criteria": {
+        "ticked": {
+            "trigger": "minecraft:location"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:scar/5k_club_trigger"
+	}
+
+}

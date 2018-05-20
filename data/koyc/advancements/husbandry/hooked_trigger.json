@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:husbandry/root",
+	"criteria": {
+		"holding_fish": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:fish"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "koyc:tests/hooked"
+	}
+}

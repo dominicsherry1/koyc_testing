@@ -1,0 +1,16 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_sword"
+		},
+		"title": "Piggy in The Middle",
+		"description": "Annihilate a zombie pigman with your bare fists",
+		"frame": "goal"
+	},
+	"parent": "minecraft:nether/root",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

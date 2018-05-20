@@ -1,0 +1,14 @@
+{
+	"parent": "hermitcraft:root",
+	"criteria": {
+		"ticked": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"dimension": "overworld"
+			}
+		}
+	},
+	"rewards": {
+		"function": "hermitcraft:tango/a_new_home_check"
+	}
+}

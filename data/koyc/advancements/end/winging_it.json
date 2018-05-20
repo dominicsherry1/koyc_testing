@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:elytra"
+		},
+			"title": "Winging It",
+			"description": "Use those elytrae",
+			"frame": "goal"
+	},
+	"parent": "minecraft:end/elytra",
+	"criteria": {
+        "elytra": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:elytra",
+						"data": 1
+                    }
+                ]
+            }
+        }
+    },
+	"rewards": {
+		"function": "koyc:rewards/avoid_the_void_setup"
+	}
+}

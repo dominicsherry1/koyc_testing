@@ -1,0 +1,16 @@
+{
+  "parent": "hermitcraft:root",
+  "criteria": {
+    "eat_cooked_chicken": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_chicken"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hermitcraft:tfc/cluck_cluck_trigger"
+  }
+}

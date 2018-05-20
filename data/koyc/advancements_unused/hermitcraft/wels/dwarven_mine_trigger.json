@@ -1,0 +1,11 @@
+ {
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"location_trigger": {
+			"trigger":"location"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:wels/dwarven_mine_trigger"
+	}
+}

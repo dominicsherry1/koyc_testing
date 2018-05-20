@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_crystal"
+        },
+        "title": "The Start of Something",
+        "description": "Craft an Ender Crystal"
+    },
+    "parent": "Mossynet:end/free_the_end",
+    "rewards": {
+        "function": "bc_rewards:farming/sugar_sugar"
+    },      
+    "criteria": {
+        "end_crystal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:end_crystal"
+                    }
+                ]
+            }
+        }
+    }
+}

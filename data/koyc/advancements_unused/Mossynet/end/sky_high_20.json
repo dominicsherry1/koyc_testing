@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:fireworks"
+        },
+        "title": "Sky High 2.0",
+        "description": "Fly up to a ridiculous height",
+        "frame": "goal"
+    },
+    "parent": "Mossynet:end/sky_high",
+    "rewards": {
+        "function": "bc_rewards:adventure/sky_high"
+    },		
+    "criteria": {
+        "world_height": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"y": {
+						"min": 1000
+					}
+				}
+            }
+        }	
+    }
+}

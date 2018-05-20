@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:minecart"
+        },
+        "title": "Steam Engine",
+        "description": "Craft a Furnace Minecart"
+    },
+    "parent": "Mossynet:mining/on_a_rail",
+    "rewards": {
+		"function": "bc_rewards:mining/on_a_rail"
+    },		
+    "criteria": {
+        "minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:furnace_minecart"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"lava_diamond": {
+			"trigger":"minecraft:tick"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:etho/diamonds_check"
+	}
+}

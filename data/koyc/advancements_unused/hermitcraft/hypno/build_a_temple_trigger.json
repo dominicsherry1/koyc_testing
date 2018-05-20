@@ -1,0 +1,17 @@
+ {
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"place_brick": {
+			"trigger":"placed_block",
+			"conditions": {
+				"block": "minecraft:stonebrick",
+				"location": {
+					"biome":"minecraft:Jungle"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:hypno/build_a_temple_trigger"
+	}
+}

@@ -1,0 +1,30 @@
+{
+
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"has_writable_book": {
+			"trigger":"minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item":"minecraft:writable_book"
+					}
+				]
+			}
+		},
+		"has_written_book": {
+			"trigger":"minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item":"minecraft:written_book"
+					}
+				]
+			}
+		}
+	},
+	"requirements":[["has_writable_book", "has_written_book"]],
+	"rewards": {
+		"function":"hermitcraft:joehills/poet_trigger"
+	}
+}

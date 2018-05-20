@@ -1,0 +1,11 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_block"
+		},
+		{
+			"title": "Iron Your Father",
+			"description": "Get some help with those zombies"
+		}
+	}
+}

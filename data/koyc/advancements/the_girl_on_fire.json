@@ -1,0 +1,12 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bow"
+		},
+		{
+			"title": "The Girl On Fire",
+			"description": "Shoot a rabbit or player from at least 50 blocks away"
+		}
+	},
+	"parent": "minecraft:adventure/shoot_arrow"
+}

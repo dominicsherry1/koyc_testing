@@ -1,0 +1,14 @@
+{
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"check_bowl": {
+			"trigger":"minecraft:location",
+			"conditions": {
+				"biome": "minecraft:ocean"
+			}
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:biffa/biffas_bowl_check"
+	}
+}

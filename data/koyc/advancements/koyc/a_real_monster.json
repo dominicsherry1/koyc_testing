@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:written_book"
+		},
+		"title": "A Real Monster",
+		"description": "Craft a magazine called \"Rosie\"",
+		"frame": "goal"
+	},
+	"parent": "koyc:koyc/root",
+	"criteria": {
+		"rosie_magazine": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:written_book",
+						"nbt": "{title:\"Rosie\"}"
+					}
+				]
+			}
+		}
+	}
+}

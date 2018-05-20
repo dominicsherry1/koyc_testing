@@ -1,0 +1,18 @@
+{
+	"parent": "hermitcraft:root",
+	"criteria": {
+        "killed_by_something": {
+            "trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"is_explosion":true
+					}
+				}
+			}
+        }
+	},
+	"rewards": {
+		"function":"hermitcraft:tango/boombox_backfire_check"
+	}
+}

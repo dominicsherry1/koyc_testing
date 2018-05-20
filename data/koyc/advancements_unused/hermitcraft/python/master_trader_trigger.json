@@ -1,0 +1,12 @@
+ {
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"traded": {
+            "trigger": "minecraft:villager_trade"
+        }	
+		
+	},
+	"rewards": {
+		"function":"hermitcraft:python/master_trader_trigger"
+	}
+}

@@ -1,0 +1,27 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:iron_axe"
+        },
+        "title": {
+            "text": "Here's Johnny"
+        },
+        "description": ["",{"text":"This could never backfire"},{"text":"\nXisuma","color":"dark_gray","italic":true}],
+		"frame":"goal"
+	},
+	"parent":"hermitcraft:xisuma/embrace_the_void",
+	"criteria":{
+		"killed_by_Johnny":{
+			"trigger": "minecraft:entity_killed_player",
+			"conditions":{
+				"entity":{
+					"type": "minecraft:vindication_illager",
+					"nbt": "{CustomName:\"Johnny\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:xisuma/heres_johnny"
+	}
+}

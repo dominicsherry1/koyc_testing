@@ -1,0 +1,11 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:emerald_ore"
+		},
+		{
+			"title": "Oresome",
+			"description": "Obtain every ore"
+		}
+	}
+}

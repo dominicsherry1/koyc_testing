@@ -1,0 +1,11 @@
+ {
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"ticker": {
+			"trigger":"location"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:bdubs/the_old_school_way_trigger"
+	}
+}

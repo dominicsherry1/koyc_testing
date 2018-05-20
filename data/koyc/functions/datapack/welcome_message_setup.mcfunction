@@ -1,0 +1,1 @@
+scoreboard objectives add tips_timer minecraft.custom:minecraft.play_one_minute Tips timer

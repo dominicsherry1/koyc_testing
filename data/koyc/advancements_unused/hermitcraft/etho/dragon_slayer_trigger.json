@@ -1,0 +1,16 @@
+{
+	"parent":"hermitcraft:root",
+	"criteria": {
+        "killed_dragon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "ender_dragon"
+                }
+            }
+        }
+    },
+	"rewards": {
+		"function":"hermitcraft:etho/dragon_slayer_trigger"
+	}
+}

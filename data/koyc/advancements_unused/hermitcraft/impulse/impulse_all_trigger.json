@@ -1,0 +1,11 @@
+ {
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"check_conditions": {
+			"trigger":"location"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:impulse/impulse_all_trigger"
+	}
+}

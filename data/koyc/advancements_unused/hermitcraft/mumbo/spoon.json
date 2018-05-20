@@ -1,0 +1,40 @@
+{
+	"display":{
+		"icon": {
+            "item": "minecraft:diamond_shovel"
+        },
+        "title": {
+            "text": "Who's a spoon?"
+        },
+        "description": ["",{"text":"He's good at redstone and eating cereal!"},{"text":"\nMumbo","color":"dark_gray","italic":true}]
+	},
+	"parent":"hermitcraft:mumbo/root",
+	"criteria":{
+		"obtain_spoon": {
+			"trigger":"minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:diamond_shovel",
+						"nbt": "{display:{Name:\"spoon\"}}"
+					}
+				]
+			}
+		},
+		"obtain_big_spoon": {
+			"trigger":"minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:diamond_shovel",
+						"nbt": "{display:{Name:\"Spoon\"}}"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [["obtain_spoon", "obtain_big_spoon"]],
+	"rewards": {
+		"function":"hermitcraft:mumbo/spoon"
+	}
+}

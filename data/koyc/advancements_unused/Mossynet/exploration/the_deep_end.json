@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:prismarine_crystals"
+        },
+        "title": "The Deep End",
+        "description": "Defeat an Elder Guardian",
+        "frame": "goal"
+    },
+    "parent": "Mossynet:exploration/monumental",
+    
+    "criteria": {
+        "elder_guardian": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:elder_guardian"
+                }
+            }
+        }
+    }
+}

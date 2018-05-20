@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:elytra",
+			"data": 432
+		},
+		"title": "High As a Kite",
+		"description": "Bring your feather falling boots",
+		"frame": "goal"
+	},
+	"parent": "koyc:end/winging_it",
+	"criteria": {
+		"tattered_elytra": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:elytra",
+						"durability": {
+							"max": 1
+						}
+					}
+				]
+			}
+		}
+	}
+}

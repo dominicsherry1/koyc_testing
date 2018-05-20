@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:torch"
+        },
+        "title": "Torched!",
+        "description": "Light up the area with some Torches!"
+    },
+    "parent": "Mossynet:building/root",
+	"rewards": {
+    },	     
+    "criteria": {
+        "torch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:torch"
+                    }
+                ]
+            }
+        }
+    }
+}

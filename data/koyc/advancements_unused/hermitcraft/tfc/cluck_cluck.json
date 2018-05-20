@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "title": {
+      "text": "Cluck Cluck"
+    },
+    "description": ["",{"text": "Only chicken will do"},{"text": "\nTinFoilChef","color": "dark_gray","italic": true}],
+    "frame": "challenge"
+  },
+  "parent": "hermitcraft:tfc/lord_of_the_grind",
+  "criteria": {
+    "eat_chicken": {
+      "trigger": "impossible"
+    }
+  },
+  "rewards": {
+    "function": "hermitcraft:tfc/cluck_cluck"
+  }
+}

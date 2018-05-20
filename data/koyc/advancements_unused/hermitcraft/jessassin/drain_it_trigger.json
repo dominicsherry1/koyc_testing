@@ -1,0 +1,14 @@
+{
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"place_glass": {
+			"trigger":"minecraft:placed_block",
+			"conditions":{
+				"block": "minecraft:sponge"
+			}
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:jessassin/drain_it_trigger"
+	}
+}

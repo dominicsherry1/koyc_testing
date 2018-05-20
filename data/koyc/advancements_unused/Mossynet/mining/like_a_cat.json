@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": "Like a cat",
+        "description": "Obtain boots enchanted with Feather Falling",
+		"frame": "goal"
+    },
+    "parent": "MossyNet:mining/old_cartoon_joke",
+    "rewards": {
+		"function": "bc_rewards:mining/frozen"
+    },			
+    "criteria": {
+        "frost_walker": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:feather_falling"
+							}
+						]
+					}
+				]
+			}
+		}
+    }
+}

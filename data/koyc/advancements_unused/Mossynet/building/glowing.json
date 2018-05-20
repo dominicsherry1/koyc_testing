@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glowstone"
+        },
+        "title": "Glowing!",
+        "description": "Light up the area with Glowstone Lamps!"
+    },
+    "parent": "Mossynet:building/torchlight",
+	"rewards": {
+    },	     
+    "criteria": {
+        "glowstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:glowstone"
+                    }
+                ]
+            }
+        }
+    }
+}

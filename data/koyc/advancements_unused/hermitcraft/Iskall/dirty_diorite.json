@@ -1,0 +1,21 @@
+{
+	"display":{
+		"icon": {
+            "item": "minecraft:flint_and_steel"
+        },
+        "title": {
+            "text": "Dirty Diorite"
+        },
+        "description": ["",{"text":"You know what to do!"},{"text":"\nIskall85","color":"dark_gray","italic":true}],
+		"frame":"challenge"
+	},
+	"parent":"hermitcraft:iskall/a_noobs_death",
+	"criteria":{
+		"burn_diorite": {
+			"trigger":"minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:iskall/dirty_diorite"
+	}
+}

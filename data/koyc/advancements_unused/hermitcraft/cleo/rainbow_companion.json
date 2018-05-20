@@ -1,0 +1,24 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:wool"
+        },
+        "title": {
+            "text": "Rainbow Companion"
+        },
+        "description": ["",{"text":"Make some rainbow sheep"},{"text":"\nZombieCleo","color":"dark_gray","italic":true}],
+		"frame":"challenge"
+	},
+	"parent":"hermitcraft:cleo/carol",
+	"criteria":{
+		"make_one_sheep": {
+			"trigger":"impossible"
+		},
+		"make_two_sheep": {
+			"trigger":"impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:cleo/rainbow_companion"
+	}
+}

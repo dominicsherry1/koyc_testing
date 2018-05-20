@@ -1,0 +1,11 @@
+{
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"placed_painting_check": {
+			"trigger":"minecraft:inventory_changed"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:joehills/artist_trigger"
+	}
+}

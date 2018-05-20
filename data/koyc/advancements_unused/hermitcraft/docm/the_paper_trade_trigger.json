@@ -1,0 +1,18 @@
+ {
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"have_paper": {
+			"trigger":"inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "paper"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:docm/the_paper_trade_trigger"
+	}
+}

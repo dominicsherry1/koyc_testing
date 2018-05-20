@@ -1,0 +1,11 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:oak_leaves"
+		},
+		{
+			"title": "Unbeleafable",
+			"description": "Destroy a leaf block"
+		}
+	}
+}

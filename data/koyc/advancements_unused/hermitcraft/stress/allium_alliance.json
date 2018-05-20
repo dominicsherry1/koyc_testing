@@ -1,0 +1,21 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:red_flower",
+			"data": 2
+        },
+        "title": {
+            "text": "The Allium Alliance"
+        },
+        "description": ["",{"text":"Needs lots of flowers!"},{"text":"\nStress","color":"dark_gray","italic":true}]
+	},
+	"parent":"hermitcraft:stress/root",
+	"criteria":{
+		"have_flowers": {
+			"trigger":"impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:stress/allium_alliance"
+	}
+}

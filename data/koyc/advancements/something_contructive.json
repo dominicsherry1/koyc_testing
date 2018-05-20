@@ -1,0 +1,9 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone_bricks"
+		},
+			"title": "Something Constructive",
+			"description": "Place 64 stone bricks, 32 oak wood stairs, 8 glass panes, and an oak wood door"
+	}
+}

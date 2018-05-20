@@ -1,0 +1,11 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:crafting_table"
+		},
+		{
+			"title": "Knowledge of Your Catechism",
+			"description": "Learn every recipe"
+		}
+	}
+}

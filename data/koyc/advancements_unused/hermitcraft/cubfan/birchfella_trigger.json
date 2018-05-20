@@ -1,0 +1,11 @@
+{
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"ticking": {
+			"trigger":"minecraft:tick"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:cubfan/birchfella_trigger"
+	}
+}

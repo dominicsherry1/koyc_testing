@@ -1,0 +1,11 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:water_bucket"
+		},
+		{
+			"title": "Kick the Bucket",
+			"description": "Try to place a bucket of water in the nether"
+		}
+	}
+}

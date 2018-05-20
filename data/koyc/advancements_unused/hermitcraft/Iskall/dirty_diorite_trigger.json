@@ -1,0 +1,11 @@
+{
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"burn_diorite": {
+			"trigger":"minecraft:inventory_changed"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:iskall/dirty_diorite_trigger"
+	}
+}

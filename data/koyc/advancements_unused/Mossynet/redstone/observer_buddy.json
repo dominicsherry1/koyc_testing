@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:observer"
+        },
+        "title": "Observe This!",
+        "description": "Craft an observer"
+    },
+    "parent": "Mossynet:redstone/space_dropper",
+	"rewards": {
+		"function": "bc_rewards:nether/observer_buddy"
+    },	
+    "criteria": {
+        "observer": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:observer"
+                    }
+                ]
+            }
+        }
+    }
+}

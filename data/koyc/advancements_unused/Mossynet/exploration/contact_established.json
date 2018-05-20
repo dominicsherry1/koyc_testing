@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "title": "Contact Established!",
+        "description": "Find a village and successfully trade with a Villager"
+    },
+    "parent": "Mossynet:exploration/root",
+    "rewards": {
+        "function": "bc_rewards:adventure/what_a_deal"
+    },		
+    "criteria": {
+        "trade": {
+            "trigger": "minecraft:villager_trade"
+        }
+    }
+}

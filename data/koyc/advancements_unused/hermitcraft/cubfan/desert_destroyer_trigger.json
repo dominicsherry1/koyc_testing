@@ -1,0 +1,11 @@
+{
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"ticking": {
+			"trigger":"minecraft:location"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:cubfan/desert_destroyer_trigger"
+	}
+}

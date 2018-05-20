@@ -1,0 +1,27 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:lit_pumpkin"
+        },
+        "title": {
+            "text": "Spooky Swamp"
+        },
+        "description": ["",{"text":"It's haunted"},{"text":"\nStress","color":"dark_gray","italic":true}],
+		"frame":"goal"
+	},
+	"parent":"hermitcraft:stress/allium_alliance",
+	"criteria":{
+		"place_jack_in_swamp": {
+			"trigger":"minecraft:placed_block",
+			"conditions": {
+				"block":"lit_pumpkin",
+				"location": {
+					"biome":"minecraft:Swampland"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:stress/spooky_swamp"
+	}
+}

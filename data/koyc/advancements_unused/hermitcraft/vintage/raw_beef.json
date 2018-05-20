@@ -1,0 +1,21 @@
+{
+	"display":{
+		"icon": {
+            "item": "minecraft:beef"
+        },
+        "title": {
+            "text": "Raw Beef!"
+        },
+        "description": ["",{"text":"How much can you stomach?"},{"text":"\nVintageBeef","color":"dark_gray","italic":true}],
+		"frame":"goal"
+	},
+	"parent":"hermitcraft:vintage/beefs_knees",
+	"criteria":{
+		"eat_100_raw_beef": {
+			"trigger":"minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:vintage/raw_beef"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:tnt"
+		},
+		{
+			"title": "It Was My Cousin",
+			"description": "Ignite 10 blocks of TNT"
+		}
+	}
+}

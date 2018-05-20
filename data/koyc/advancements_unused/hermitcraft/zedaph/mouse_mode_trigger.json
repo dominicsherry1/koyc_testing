@@ -1,0 +1,11 @@
+{
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"mouse_mode": {
+			"trigger":"minecraft:location"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:zedaph/mouse_mode_trigger"
+	}
+}

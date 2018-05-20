@@ -1,0 +1,17 @@
+{
+	"parent": "hermitcraft:root",
+    "criteria": {
+        "killed_one_slime": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"entity": {
+					"type":"slime"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:ijevin/pink_death_trigger"
+	}
+
+}

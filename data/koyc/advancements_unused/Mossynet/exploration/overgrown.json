@@ -1,0 +1,50 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_boots"
+        },
+        "title": "Overgrown!",
+        "description": "Discover every overgrown biome"
+    },
+    "parent": "Mossynet:exploration/one_with_the_forest",	
+    "rewards": {
+    },	
+    "criteria": {
+        "swampland": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:swampland"
+            }
+        },
+        "mushroom_island": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:mushroom_island"
+            }
+        },
+        "mushroom_island_shore": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:mushroom_island_shore"
+            }
+        },
+        "jungle_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:jungle_hills"
+            }
+        },
+        "jungle_edge": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:jungle_edge"
+            }
+        },
+        "jungle": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:jungle"
+            }
+        }
+    }
+}

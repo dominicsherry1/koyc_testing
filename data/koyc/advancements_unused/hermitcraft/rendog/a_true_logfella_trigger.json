@@ -1,0 +1,11 @@
+{
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"ticking": {
+			"trigger":"minecraft:tick"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:rendog/a_true_logfella_trigger"
+	}
+}

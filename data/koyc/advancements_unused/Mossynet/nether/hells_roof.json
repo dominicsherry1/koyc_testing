@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherrack"
+        },
+        "title": "Hell's Roof",
+        "description": "Get above the roof in the Nether",
+        "frame": "goal"
+    },
+    "parent": "Mossynet:nether/a_terrible_fortress",
+    "rewards": {
+    },		
+    "criteria": {
+        "world_height": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:hell",
+                    
+				"position": {
+					"y": {
+						"min": 127
+					}
+				}
+            }
+        }	
+    }
+}

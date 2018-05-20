@@ -1,0 +1,11 @@
+ {
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"cure_something": {
+			"trigger":"minecraft:cured_zombie_villager"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:docm/doctor_undead_trigger"
+	}
+}

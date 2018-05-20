@@ -1,0 +1,21 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:leaves"
+        },
+        "title": {
+            "text": "Booshes"
+        },
+        "description": ["",{"text":"Always build with booshes!"},{"text":"\nKeralis","color":"dark_gray","italic":true}],
+		"frame":"goal"
+	},
+	"parent":"hermitcraft:keralis/nametag",
+	"criteria":{
+		"booshes": {
+			"trigger":"impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:keralis/booshes"
+	}
+}

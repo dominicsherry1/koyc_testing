@@ -1,0 +1,22 @@
+{
+	"display":{
+		"icon": {
+            "item": "minecraft:elytra"
+        },
+        "title": {
+            "text": "Join the 5k Club!"
+        },
+        "description": ["",{"text":"You're gonna need a lot of rockets!"},{"text":"\nScar","color":"dark_gray","italic":true}],
+        "frame": "challenge"
+    },
+	"parent": "hermitcraft:scar/growing_leaves",
+    "criteria": {
+        "flew_5_k": {
+            "trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:scar/5k_club"
+	}
+
+}

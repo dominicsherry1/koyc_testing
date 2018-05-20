@@ -1,0 +1,50 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_pearl"
+        },
+        "title": "Plane Walker",
+        "description": "Kill endermen in all three dimensions",
+        "frame": "challenge"
+    },
+    "parent": "Mossynet:adventure/ender_of_ender",
+	"rewards": {
+        "experience": 50,
+		"function": "bc_rewards:adventure/plane_walker"
+    },	
+    "criteria": {
+        "overworld": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:enderman",
+                    "location": {
+                        "dimension": "overworld"
+                    }
+                }
+            }
+        },
+        "nether": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:enderman",
+                    "location": {
+                        "dimension": "the_nether"
+                    }
+                }
+            }
+        },
+		"end": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:enderman",
+                    "location": {
+                        "dimension": "the_end"
+                    }
+                }
+            }
+        }
+    }
+}

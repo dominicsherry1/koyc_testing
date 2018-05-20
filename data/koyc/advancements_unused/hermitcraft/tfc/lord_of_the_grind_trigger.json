@@ -1,0 +1,11 @@
+ {
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"location_trigger": {
+			"trigger":"location"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:tfc/lord_of_the_grind_trigger"
+	}
+}

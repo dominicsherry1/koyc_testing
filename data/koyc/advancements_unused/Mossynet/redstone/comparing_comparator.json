@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:comparator"
+        },
+        "title": "Comparing Comparator",
+        "description": "Craft a redstone comparator"
+    },
+    "parent": "Mossynet:redstone/repeating_repeater",
+	"rewards": {
+    },	
+    "criteria": {
+        "comparator": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:comparator"
+                    }
+                ]
+            }
+        }
+    }
+}

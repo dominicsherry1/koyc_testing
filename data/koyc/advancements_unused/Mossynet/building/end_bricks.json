@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_bricks"
+        },
+        "title": "End Bricks!",
+        "description": "Craft End Bricks from End Stone!"
+    },
+    "parent": "Mossynet:building/bricks",
+	"rewards": {
+    },	 
+    "criteria": {
+        "end_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:end_bricks"
+                    }
+                ]
+            }
+        }
+    }
+}

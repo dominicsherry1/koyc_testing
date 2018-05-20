@@ -1,0 +1,11 @@
+{
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"dont_land": {
+			"trigger":"minecraft:location"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:etho/dragon_slayer_check"
+	}
+}

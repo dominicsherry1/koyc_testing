@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skull",
+			"data": 3
+        },
+        "title": {
+            "text":"False"
+        },
+        "description": {
+            "text": "False's Challenges"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+	"parent":"hermitcraft:root",
+    "criteria": {
+        "empty": {
+            "trigger": "minecraft:location"
+		}
+	}
+}

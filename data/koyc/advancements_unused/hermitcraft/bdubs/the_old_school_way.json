@@ -1,0 +1,20 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:boat"
+        },
+        "title": {
+            "text": "The Old School Way"
+        },
+		"description": ["",{"text":"Time to go fishing"},{"text":"\nBdoubleO","color":"dark_gray","italic":true}]
+	},
+	"parent":"hermitcraft:bdubs/root",
+	"criteria":{
+		"fish_in_a_boat": {
+			"trigger":"impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:bdubs/the_old_school_way"
+	}
+}

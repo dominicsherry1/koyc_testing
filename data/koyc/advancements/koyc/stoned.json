@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cobblestone"
+		},
+		"title": "Stoned",
+		"description": "Fill yourself with cobble",
+		"frame": "goal"
+	},
+	"parent": "koyc:koyc/root",
+	"criteria": {
+		"full_of_stone": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cobblestone",
+						"count": 64
+                    }
+                ]
+            }
+		}
+	}
+}

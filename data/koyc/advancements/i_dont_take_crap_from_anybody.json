@@ -1,0 +1,11 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:rotten_flesh"
+		},
+		{
+			"title": "I Don't Take Crap From Anybody",
+			"description": "Remove the foul items from your person"
+		}
+	}
+}

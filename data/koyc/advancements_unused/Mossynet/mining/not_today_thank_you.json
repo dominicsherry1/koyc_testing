@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title": "I said GOOD DAY!",
+        "description": "Deflect an arrow with a shield"
+    },
+    "parent": "Mossynet:mining/suit_up",
+	"rewards": {
+		"function": "bc_rewards:mining/not_today_thank_you"
+    },
+    "criteria": {
+        "deflected_projectile": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_projectile": true
+                    },
+                    "blocked": true
+                }
+            }
+        }
+    }
+}

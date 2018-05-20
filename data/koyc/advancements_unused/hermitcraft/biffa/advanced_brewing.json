@@ -1,0 +1,37 @@
+{
+	"display":{
+		"icon": {
+            "item": "minecraft:speckled_melon"
+        },
+        "title": {
+            "text": "Advanced Brewing"
+        },
+        "description": ["",{"text":"English Breakfast Tea"},{"text":"\nBiffa","color":"dark_gray","italic":true}],
+		"frame":"challenge"
+	},
+	"parent":"hermitcraft:biffa/the_agency",
+	"criteria":{
+		"drink_healing": {
+			"trigger":"minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"potion":"minecraft:healing",
+					"nbt": "{display:{Name:\"English Breakfast Tea\"}}"
+				}
+			}
+		},
+		"drink_strong_healing": {
+			"trigger":"minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"potion":"minecraft:strong_healing",
+					"nbt": "{display:{Name:\"English Breakfast Tea\"}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:biffa/advanced_brewing"
+	},
+	"requirements": [["drink_healing", "drink_strong_healing"]]
+}

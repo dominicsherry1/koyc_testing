@@ -1,0 +1,17 @@
+ {
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"palce_emerald": {
+			"trigger":"placed_block",
+			"conditions": {
+				"block": "minecraft:emerald_block",
+				"location": {
+					"biome":"minecraft:Jungle"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:hypno/make_it_green_trigger"
+	}
+}

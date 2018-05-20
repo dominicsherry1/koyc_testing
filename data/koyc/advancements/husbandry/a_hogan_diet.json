@@ -1,0 +1,54 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:poisonous_potato"
+		},
+		"title": "A Hogan Diet",
+		"description": "Eat every foul food in the game",
+		"frame": "challenge"
+	},
+	"parent": "minecraft:husbandry/plant_seed",
+	"criteria": {
+		"raw_chicken": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:chicken"
+				}
+			}
+		},
+		"rotten_flesh": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:rotten_flesh"
+				}
+			}
+		},
+		"pufferfish": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:fish",
+					"data": 3
+				}
+			}
+		},
+		"spider_eye": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:spider_eye"
+				}
+			}
+		},
+		"poisonous_potato": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:poisonous_potato"
+				}
+			}
+		}
+	}
+}

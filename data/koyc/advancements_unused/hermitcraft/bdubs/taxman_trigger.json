@@ -1,0 +1,11 @@
+ {
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"ticker": {
+			"trigger":"inventory_changed"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:bdubs/taxman_trigger"
+	}
+}

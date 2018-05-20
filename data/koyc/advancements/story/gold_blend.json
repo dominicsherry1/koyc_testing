@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gold_block"
+		},
+		"title": "Gold Blend",
+		"description": "Craft a block of gold"
+	},
+	"parent": "minecraft:story/a_golden_opportunity",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

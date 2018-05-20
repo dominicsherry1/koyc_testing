@@ -1,0 +1,17 @@
+{
+	"parent": "hermitcraft:root",
+    "criteria": {
+        "killed_one_slime": {
+            "trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type":"slime"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:ijevin/you_are_what_you_kill_trigger"
+	}
+
+}

@@ -1,0 +1,21 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:prismarine_shard"
+        },
+        "title": {
+            "text": "Guardian Slayer"
+        },
+        "description": ["",{"text":"A farm would help"},{"text":"\nImpulse","color":"dark_gray","italic":true}],
+		"frame":"goal"
+	},
+	"parent":"hermitcraft:impulse/witch_farm",
+	"criteria":{
+		"kill_guardians": {
+			"trigger":"impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:impulse/guardian_slayer"
+	}
+}

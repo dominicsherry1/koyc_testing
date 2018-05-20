@@ -1,0 +1,12 @@
+{
+	"values": [
+		"koyc:deathpoints/deathpoints_initialise",
+		"koyc:head_sounds/head_sounds_initialise",
+		"koyc:no_bgm_for_jukeboxes/no_bgm_for_jukeboxes_initialise",
+		"koyc:one_player_sleeping/one_player_sleeping_initialise",
+		"koyc:pvp_toggle/pvp_toggle_initialise",
+		"koyc:sidebar_info/sidebar_info_initialise",
+		"koyc:options_menu/options_menu_initialise",
+		"koyc:datapack/welcome_message_initialise"
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"display":{
+		"icon": {
+            "item": "minecraft:elytra"
+        },
+        "title": {
+            "text": "Mouse Mode"
+        },
+        "description": ["",{"text":"Enter Mouse Mode"},{"text":"\nZedaph","color":"dark_gray","italic":true}],
+		"frame": "challenge"
+	},
+	"parent":"hermitcraft:zedaph/naked_boom",
+	"criteria":{
+		"fly_with_a_sheep": {
+			"trigger":"minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:zedaph/mouse_mode"
+	}
+}

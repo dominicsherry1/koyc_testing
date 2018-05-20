@@ -1,0 +1,18 @@
+ {
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"below_neg64": {
+			"trigger":"location",
+			"conditions":{
+				"position": {
+					"y": {
+						"min":0
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:xisuma/embrace_the_void_trigger2"
+	}
+}

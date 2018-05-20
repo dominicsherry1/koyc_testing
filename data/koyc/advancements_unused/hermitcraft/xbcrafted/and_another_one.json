@@ -1,0 +1,24 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "title": {
+            "text": "And another one"
+        },
+        "description": ["",{"text":"I'm sick of all this water"},{"text":"\nxBCrafted","color":"dark_gray","italic":true}],
+		"frame":"goal"
+	},
+	"parent":"hermitcraft:xbcrafted/make_it_home",
+	"criteria":{
+		"be_in_mansion": {
+			"trigger":"minecraft:location",
+			"conditions": {
+				"feature": "Mansion"
+			}
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:xbcrafted/and_another_one"
+	}
+}

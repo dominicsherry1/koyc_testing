@@ -1,0 +1,11 @@
+ {
+	"parent":"hermitcraft:root",
+	"criteria":{
+		"use_nametag": {
+			"trigger":"inventory_changed"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:cleo/carol_trigger"
+	}
+}

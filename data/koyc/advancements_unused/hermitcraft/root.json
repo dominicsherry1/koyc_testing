@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_apple",
+			"data":1
+        },
+        "title": {
+            "text":"Let the fun begin!"
+        },
+        "description": {
+            "text": "Are you ready to take on all these challenges?"
+        },
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "instant": {
+            "trigger": "minecraft:tick"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:setup"
+	}
+}

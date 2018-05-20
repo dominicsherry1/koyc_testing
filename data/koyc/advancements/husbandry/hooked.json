@@ -1,0 +1,16 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:fishing_rod"
+		},
+		"title": "Hooked",
+		"description": "Catch one stack of fresh fish",
+		"frame": "challenge"
+	},
+	"parent": "koyc:husbandry/so_juicy_sweet",
+	"criteria": {
+		"get_64_fishies": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

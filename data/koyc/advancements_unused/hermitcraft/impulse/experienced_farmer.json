@@ -1,0 +1,21 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "title": {
+            "text": "Experienced Farmer"
+        },
+        "description": ["",{"text":"One hundred"},{"text":"\nImpulse","color":"dark_gray","italic":true}],
+		"frame":"challenge"
+	},
+	"parent":"hermitcraft:impulse/guardian_slayer",
+	"criteria":{
+		"get_levels": {
+			"trigger":"impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:impulse/experienced_farmer"
+	}
+}

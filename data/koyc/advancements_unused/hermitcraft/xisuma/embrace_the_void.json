@@ -1,0 +1,21 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:concrete",
+			"data":15
+        },
+        "title": {
+            "text": "Embrace the void"
+        },
+        "description": ["",{"text":"Don't be afraid of void damage"},{"text":"\nXisuma","color":"dark_gray","italic":true}]
+	},
+	"parent":"hermitcraft:xisuma/root",
+	"criteria":{
+		"fly_below_64_and_come_back": {
+			"trigger":"minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:xisuma/embrace_the_void"
+	}
+}

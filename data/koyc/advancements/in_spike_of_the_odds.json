@@ -1,0 +1,11 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:packed_ice"
+		},
+		"title": "In Spike of the Odds",
+		"description": "Discover the ice spikes biome",
+		"frame": "goal"
+	},
+	"parent": "minecraft:adventure/sleep_in_bed"
+}

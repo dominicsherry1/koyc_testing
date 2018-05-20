@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion"
+        },
+        "title": "Performance-Enhancing Drugs",
+        "description": "Brew a Speed Potion"
+    },
+    "parent": "Mossynet:nether/local_brewery",
+	"rewards": {
+		"function": "bc_rewards:nether/performance_enhancing_drugs"
+    },	
+    "criteria": {
+        "speed_potion": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:swiftness"
+            }
+        }
+    }
+}

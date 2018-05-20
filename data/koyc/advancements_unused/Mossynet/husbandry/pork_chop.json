@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_porkchop"
+        },
+        "title": "Pork Chop",
+        "description": "Cook a pork chop"
+    },
+    "parent": "Mossynet:husbandry/hot_topic",
+	"rewards": {
+		"function": "bc_rewards:farming/pork_chop"
+    },		
+    "criteria": {
+        "cooked_porkchop": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cooked_porkchop"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:written_book"
+		},
+		"title": "Brown Envelope",
+		"description": "Present another player with your \"Research\"",
+		"frame": "goal"
+	},
+	"parent": "koyc:koyc/root",
+	"criteria": {
+		"research": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:written_book",
+						"nbt": "{title:\"Research\"}"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,75 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_boots"
+        },
+        "title": "Cold Feet",
+        "description": "Discover every cold biome"
+       
+    },
+    "parent": "Mossynet:exploration/kilometre_walk",	
+    "rewards": {
+    },	
+    "criteria": {
+        "redwood_taiga_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:redwood_taiga_hills"
+            }
+        },
+        "taiga_cold": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:taiga_cold"
+            }
+        },
+        "ice_flats": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:ice_flats"
+            }
+        },
+        "taiga_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:taiga_hills"
+            }
+        },
+        "ice_mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:ice_mountains"
+            }
+        },
+        "frozen_river": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:frozen_river"
+            }
+        },
+        "redwood_taiga": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:redwood_taiga"
+            }
+        },
+        "cold_beach": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:cold_beach"
+            }
+        },
+        "taiga_cold_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:taiga_cold_hills"
+            }
+        },
+        "taiga": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:taiga"
+            }
+        }
+    }
+}

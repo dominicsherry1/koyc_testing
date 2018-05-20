@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bread"
+		},
+			"title": "How We Roll",
+			"description": "Craft a bread roll"
+	},
+	"parent": "minecraft:husbandry/plant_seed",
+	"criteria": {
+		"bread": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:bread"
+					}
+				]
+			}
+		}
+	}
+}

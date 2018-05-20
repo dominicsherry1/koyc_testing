@@ -1,0 +1,21 @@
+{
+	"display":{
+		"icon": {
+            "item": "minecraft:sponge"
+        },
+        "title": {
+            "text": "Drain it!"
+        },
+        "description": ["",{"text":"We can't be having all this water in here"},{"text":"\nJessassin","color":"dark_gray","italic":true}],
+		"frame":"challenge"
+	},
+	"parent":"hermitcraft:jessassin/build_a_dome",
+	"criteria":{
+		"place_sponge": {
+			"trigger":"minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:jessassin/drain_it"
+	}
+}

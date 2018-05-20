@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:hopper"
+		},
+			"title": "Hopping Mad",
+			"description": "Block the flow of items",
+			"frame": "goal"
+	},
+	"parent": "koyc:redstone/root",
+	"criteria": {
+		"place_hopper": {
+			"trigger": "minecraft:placed_block",
+				"conditions": {
+					"block": "minecraft:hopper",
+					"item": {
+						"item": "minecraft:hopper"
+					},
+					"state": {
+						"enabled": false
+					}
+				}
+			}
+		}
+	}
+}

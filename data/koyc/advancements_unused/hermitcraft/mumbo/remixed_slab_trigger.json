@@ -1,0 +1,21 @@
+{
+	"parent":"hermitcraft:mumbo/spoon",
+	"criteria":{
+		"placed_slab": {
+			"trigger":"minecraft:placed_block",
+			"conditions":{
+				"block":"minecraft:stone_slab"
+			}
+		},
+		"placed_double_slab": {
+			"trigger":"minecraft:placed_block",
+			"conditions":{
+				"block":"minecraft:double_stone_slab"
+			}
+		}
+	},
+	"rewards": {
+		"function":"hermitcraft:mumbo/remixed_slab_trigger"
+	},
+	"requirements": [["placed_slab", "placed_double_slab"]]
+}
