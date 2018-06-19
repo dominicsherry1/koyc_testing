@@ -75,16 +75,16 @@ execute as @a[nbt={SelectedItemSlot:3},tag=options_visible,tag=tips] if score @s
 execute as @a[nbt={SelectedItemSlot:4},tag=options_visible,tag=!option_selected] unless score @s hotbar_slot matches 4 run scoreboard players set @s option_sel_cd -100
 execute as @a[nbt={SelectedItemSlot:4},tag=options_visible,tag=!option_selected] if score @s tips_timer matches ..199 unless score @s hotbar_slot matches 4 run bossbar set minecraft:player_options name {"text":"Show tips","color":"green","bold":true}
 execute as @a[nbt={SelectedItemSlot:4},tag=options_visible,tag=!option_selected] if score @s tips_timer matches 4401.. unless score @s hotbar_slot matches 4 run bossbar set minecraft:player_options name {"text":"Show tips","color":"green","bold":true}
-execute as @a[nbt={SelectedItemSlot:4},tag=options_visible,tag=!option_selected] if score @s tips_timer matches 200..4400 unless score @s hotbar_slot matches 4 run bossbar set minecraft:player_options name {"text":"Skip tips","color":"red","bold":true}
+execute as @a[nbt={SelectedItemSlot:4},tag=options_visible,tag=!option_selected] if score @s tips_timer matches 200..4200 unless score @s hotbar_slot matches 4 run bossbar set minecraft:player_options name {"text":"Skip tips","color":"red","bold":true}
 execute as @a[nbt={SelectedItemSlot:4},tag=options_visible] if score @s tips_timer matches ..199 if score @s option_sel_cd matches ..-98 run bossbar set minecraft:player_options name {"text":"Show tips","color":"green","bold":true}
 execute as @a[nbt={SelectedItemSlot:4},tag=options_visible] if score @s tips_timer matches 4401.. if score @s option_sel_cd matches ..-98 run bossbar set minecraft:player_options name {"text":"Show tips","color":"green","bold":true}
-execute as @a[nbt={SelectedItemSlot:4},tag=options_visible] if score @s tips_timer matches 200..4400 if score @s option_sel_cd matches ..-98 run bossbar set minecraft:player_options name {"text":"Skip tips","color":"red","bold":true}
+execute as @a[nbt={SelectedItemSlot:4},tag=options_visible] if score @s tips_timer matches 200..4200 if score @s option_sel_cd matches ..-98 run bossbar set minecraft:player_options name {"text":"Skip tips","color":"red","bold":true}
 execute as @a[nbt={SelectedItemSlot:4},tag=options_visible,tag=!option_selected] if score @s tips_timer matches ..199 unless score @s hotbar_slot matches 4 run bossbar set minecraft:player_options color green
 execute as @a[nbt={SelectedItemSlot:4},tag=options_visible,tag=!option_selected] if score @s tips_timer matches 4401.. unless score @s hotbar_slot matches 4 run bossbar set minecraft:player_options color green
-execute as @a[nbt={SelectedItemSlot:4},tag=options_visible,tag=!option_selected] if score @s tips_timer matches 200..4400 unless score @s hotbar_slot matches 4 run bossbar set minecraft:player_options color red
+execute as @a[nbt={SelectedItemSlot:4},tag=options_visible,tag=!option_selected] if score @s tips_timer matches 200..4200 unless score @s hotbar_slot matches 4 run bossbar set minecraft:player_options color red
 execute as @a[nbt={SelectedItemSlot:4},tag=options_visible] if score @s tips_timer matches ..199 if score @s option_sel_cd matches ..-98 run bossbar set minecraft:player_options color green
-execute as @a[nbt={SelectedItemSlot:4},tag=options_visible] if score @s tips_timer matches 4401.. if score @s option_sel_cd matches ..-98 run bossbar set minecraft:player_options color green
-execute as @a[nbt={SelectedItemSlot:4},tag=options_visible] if score @s tips_timer matches 200..4400 if score @s option_sel_cd matches ..-98 run bossbar set minecraft:player_options color red
+execute as @a[nbt={SelectedItemSlot:4},tag=options_visible] if score @s tips_timer matches 4201.. if score @s option_sel_cd matches ..-98 run bossbar set minecraft:player_options color green
+execute as @a[nbt={SelectedItemSlot:4},tag=options_visible] if score @s tips_timer matches 200..4200 if score @s option_sel_cd matches ..-98 run bossbar set minecraft:player_options color red
 
 #Toggle sidebar info - Update bossbar on every tick since other players can update this!
 execute as @a[nbt={SelectedItemSlot:5},tag=options_visible,tag=!option_selected] run scoreboard players set @s option_sel_cd -100
@@ -152,8 +152,8 @@ execute as @a[nbt={SelectedItemSlot:3},tag=tips] if score @s option_sel_cd match
 
 #Show/skip tips
 execute as @a[nbt={SelectedItemSlot:4}] if score @s tips_timer matches ..199 if score @s option_sel_cd matches 40 run bossbar set minecraft:player_options name {"text":"Showing tips, sneak to undo","color":"green","bold":true}
-execute as @a[nbt={SelectedItemSlot:4}] if score @s tips_timer matches 4401.. if score @s option_sel_cd matches 40 run bossbar set minecraft:player_options name {"text":"Showing tips, sneak to undo","color":"green","bold":true}
-execute as @a[nbt={SelectedItemSlot:4}] if score @s tips_timer matches 200..4400 if score @s option_sel_cd matches 40 run bossbar set minecraft:player_options name {"text":"Skipping tips, sneak to undo","color":"red","bold":true}
+execute as @a[nbt={SelectedItemSlot:4}] if score @s tips_timer matches 4201.. if score @s option_sel_cd matches 40 run bossbar set minecraft:player_options name {"text":"Showing tips, sneak to undo","color":"green","bold":true}
+execute as @a[nbt={SelectedItemSlot:4}] if score @s tips_timer matches 200..4200 if score @s option_sel_cd matches 40 run bossbar set minecraft:player_options name {"text":"Skipping tips, sneak to undo","color":"red","bold":true}
 
 #Toggle sidebar info
 execute as @a[nbt={SelectedItemSlot:5},tag=!sidebar_on] if score @s option_sel_cd matches 40 run bossbar set minecraft:player_options name {"text":"Showing sidebar info, sneak to stop","color":"blue","bold":true}

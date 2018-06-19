@@ -1,1 +1,1 @@
-scoreboard players set @s tips_timer 4400
+scoreboard players set @s tips_timer 4200

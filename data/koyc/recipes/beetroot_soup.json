@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "group": "stained_glass_pane",
+  "pattern": [
+    "r",
+    "U"
+  ],
+  "key": {
+    "r": {
+      "item": "minecraft:beetroot"
+    },
+    "U": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "minecraft:beetroot_soup"
+  }
+}
