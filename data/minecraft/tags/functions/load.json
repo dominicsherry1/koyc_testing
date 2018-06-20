@@ -3,6 +3,7 @@
 		"koyc:datapack/datapack_setup",
 		"koyc:deathpoints/deathpoints_setup",
 		"koyc:deathpoints/deathpoints_initialise",
+		"koyc:durability_indicators/durability_indicators_setup",
 		"koyc:head_sounds/head_sounds_setup",
 		"koyc:head_sounds/head_sounds_initialise",
 		"koyc:no_bgm_for_jukeboxes/no_bgm_for_jukeboxes_setup",
