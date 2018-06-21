@@ -89,6 +89,122 @@ execute as @a[tag=flying] if score @s slot_num matches 102 run execute store res
 #Convert damage values to durability values
 execute as @a[tag=flying] run scoreboard players operation @s dur_elytra -= @s dam_elytra
 
+#Set bossbar colours based on durability
+#Red
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run bossbar set minecraft:elytra_durability_weweregroot color red
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "red"}
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_low] if score @s dur_elytra matches ..49 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability Very Low", "color": "red"}
+
+execute as @a[name=TheRezzieHunter,tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run bossbar set minecraft:elytra_durability_therezziehunter color red
+execute as @a[name=TheRezzieHunter,tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run bossbar set minecraft:elytra_durability_therezziehunter name {"text": "Elytra Durability", "color": "red"}
+execute as @a[name=TheRezzieHunter,tag=flying,tag=!bossbar_elytra_low] if score @s dur_elytra matches ..49 run bossbar set minecraft:elytra_durability_therezziehunter name {"text": "Elytra Durability Very Low", "color": "red"}
+
+execute as @a[name=Smoler,tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run bossbar set minecraft:elytra_durability_smoler color red
+execute as @a[name=Smoler,tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run bossbar set minecraft:elytra_durability_smoler name {"text": "Elytra Durability", "color": "red"}
+execute as @a[name=Smoler,tag=flying,tag=!bossbar_elytra_low] if score @s dur_elytra matches ..49 run bossbar set minecraft:elytra_durability_smoler name {"text": "Elytra Durability Very Low", "color": "red"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run bossbar set minecraft:elytra_durability_weweregroot color red
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "red"}
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_low] if score @s dur_elytra matches ..49 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability Very Low", "color": "red"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run bossbar set minecraft:elytra_durability_weweregroot color red
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "red"}
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_low] if score @s dur_elytra matches ..49 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability Very Low", "color": "red"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run bossbar set minecraft:elytra_durability_weweregroot color red
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "red"}
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_low] if score @s dur_elytra matches ..49 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability Very Low", "color": "red"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run bossbar set minecraft:elytra_durability_weweregroot color red
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "red"}
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_low] if score @s dur_elytra matches ..49 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability Very Low", "color": "red"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run bossbar set minecraft:elytra_durability_weweregroot color red
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "red"}
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_low] if score @s dur_elytra matches ..49 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability Very Low", "color": "red"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run bossbar set minecraft:elytra_durability_weweregroot color red
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "red"}
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_low] if score @s dur_elytra matches ..49 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability Very Low", "color": "red"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run bossbar set minecraft:elytra_durability_weweregroot color red
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "red"}
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_low] if score @s dur_elytra matches ..49 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability Very Low", "color": "red"}
+
+execute as @a[tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run tag @s add bossbar_elytra_red
+execute as @a[tag=flying,tag=bossbar_elytra_red] if score @s dur_elytra matches 144.. run tag @s remove bossbar_elytra_red
+execute as @a[tag=flying,tag=!bossbar_elytra_low] if score @s dur_elytra matches ..49 run tag @s add bossbar_elytra_low
+execute as @a[tag=flying,tag=bossbar_elytra_low] if score @s dur_elytra matches 50.. run tag @s remove bossbar_elytra_low
+
+#Yellow
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_yellow] if score @s dur_elytra matches 144..287 run bossbar set minecraft:elytra_durability_weweregroot color yellow
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_yellow] if score @s dur_elytra matches 144..287 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "yellow"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_yellow] if score @s dur_elytra matches 144..287 run bossbar set minecraft:elytra_durability_weweregroot color yellow
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_yellow] if score @s dur_elytra matches 144..287 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "yellow"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_yellow] if score @s dur_elytra matches 144..287 run bossbar set minecraft:elytra_durability_weweregroot color yellow
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_yellow] if score @s dur_elytra matches 144..287 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "yellow"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_yellow] if score @s dur_elytra matches 144..287 run bossbar set minecraft:elytra_durability_weweregroot color yellow
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_yellow] if score @s dur_elytra matches 144..287 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "yellow"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_yellow] if score @s dur_elytra matches 144..287 run bossbar set minecraft:elytra_durability_weweregroot color yellow
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_yellow] if score @s dur_elytra matches 144..287 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "yellow"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_yellow] if score @s dur_elytra matches 144..287 run bossbar set minecraft:elytra_durability_weweregroot color yellow
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_yellow] if score @s dur_elytra matches 144..287 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "yellow"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_yellow] if score @s dur_elytra matches 144..287 run bossbar set minecraft:elytra_durability_weweregroot color yellow
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_yellow] if score @s dur_elytra matches 144..287 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "yellow"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_yellow] if score @s dur_elytra matches 144..287 run bossbar set minecraft:elytra_durability_weweregroot color yellow
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_yellow] if score @s dur_elytra matches 144..287 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "yellow"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_yellow] if score @s dur_elytra matches 144..287 run bossbar set minecraft:elytra_durability_weweregroot color yellow
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_yellow] if score @s dur_elytra matches 144..287 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "yellow"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_yellow] if score @s dur_elytra matches 144..287 run bossbar set minecraft:elytra_durability_weweregroot color yellow
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_yellow] if score @s dur_elytra matches 144..287 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "yellow"}
+
+execute as @a[tag=flying,tag=!bossbar_elytra_yellow] if score @s dur_elytra matches 144..287 run tag @s add bossbar_elytra_yellow
+execute as @a[tag=flying,tag=bossbar_elytra_yellow] if score @s dur_elytra matches ..143 run tag @s remove bossbar_elytra_yellow
+execute as @a[tag=flying,tag=bossbar_elytra_yellow] if score @s dur_elytra matches 288.. run tag @s remove bossbar_elytra_yellow
+
+#Green
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_green] if score @s dur_elytra matches 288.. run bossbar set minecraft:elytra_durability_weweregroot color green
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_green] if score @s dur_elytra matches 288.. run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "green"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_green] if score @s dur_elytra matches 288.. run bossbar set minecraft:elytra_durability_weweregroot color green
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_green] if score @s dur_elytra matches 288.. run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "green"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_green] if score @s dur_elytra matches 288.. run bossbar set minecraft:elytra_durability_weweregroot color green
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_green] if score @s dur_elytra matches 288.. run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "green"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_green] if score @s dur_elytra matches 288.. run bossbar set minecraft:elytra_durability_weweregroot color green
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_green] if score @s dur_elytra matches 288.. run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "green"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_green] if score @s dur_elytra matches 288.. run bossbar set minecraft:elytra_durability_weweregroot color green
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_green] if score @s dur_elytra matches 288.. run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "green"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_green] if score @s dur_elytra matches 288.. run bossbar set minecraft:elytra_durability_weweregroot color green
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_green] if score @s dur_elytra matches 288.. run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "green"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_green] if score @s dur_elytra matches 288.. run bossbar set minecraft:elytra_durability_weweregroot color green
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_green] if score @s dur_elytra matches 288.. run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "green"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_green] if score @s dur_elytra matches 288.. run bossbar set minecraft:elytra_durability_weweregroot color green
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_green] if score @s dur_elytra matches 288.. run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "green"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_green] if score @s dur_elytra matches 288.. run bossbar set minecraft:elytra_durability_weweregroot color green
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_green] if score @s dur_elytra matches 288.. run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "green"}
+
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_green] if score @s dur_elytra matches 288.. run bossbar set minecraft:elytra_durability_weweregroot color green
+execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_green] if score @s dur_elytra matches 288.. run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "green"}
+
+execute as @a[tag=flying,tag=!bossbar_elytra_green] if score @s dur_elytra matches 288.. run tag @s add bossbar_elytra_green
+execute as @a[tag=flying,tag=bossbar_elytra_green] if score @s dur_elytra matches ..287 run tag @s remove bossbar_elytra_green
+
 #Store durability values in each player's bossbar
 execute as @a[name=WeWereGroot,tag=flying] run execute store result bossbar minecraft:elytra_durability_weweregroot value run scoreboard players get @s dur_elytra
 execute as @a[name=TheRezzieHunter,tag=flying] run execute store result bossbar minecraft:elytra_durability_therezziehunter value run scoreboard players get @s dur_elytra
