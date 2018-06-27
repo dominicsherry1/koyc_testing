@@ -112,15 +112,7 @@ execute as @a[nbt={SelectedItemSlot:8},tag=options_visible] if score @s option_s
 execute as @a[nbt={SelectedItemSlot:8},tag=options_visible,tag=!option_selected] unless score @s hotbar_slot matches 8 run bossbar set minecraft:player_options color red
 
 #Set hotbar_slot score from player NBT data
-execute as @a[nbt={SelectedItemSlot:0},tag=options_visible,tag=!option_selected] run scoreboard players set @s hotbar_slot 0
-execute as @a[nbt={SelectedItemSlot:1},tag=options_visible,tag=!option_selected] run scoreboard players set @s hotbar_slot 1
-execute as @a[nbt={SelectedItemSlot:2},tag=options_visible,tag=!option_selected] run scoreboard players set @s hotbar_slot 2
-execute as @a[nbt={SelectedItemSlot:3},tag=options_visible,tag=!option_selected] run scoreboard players set @s hotbar_slot 3
-execute as @a[nbt={SelectedItemSlot:4},tag=options_visible,tag=!option_selected] run scoreboard players set @s hotbar_slot 4
-execute as @a[nbt={SelectedItemSlot:5},tag=options_visible,tag=!option_selected] run scoreboard players set @s hotbar_slot 5
-execute as @a[nbt={SelectedItemSlot:6},tag=options_visible,tag=!option_selected] run scoreboard players set @s hotbar_slot 6
-execute as @a[nbt={SelectedItemSlot:7},tag=options_visible,tag=!option_selected] run scoreboard players set @s hotbar_slot 7
-execute as @a[nbt={SelectedItemSlot:8},tag=options_visible,tag=!option_selected] run scoreboard players set @s hotbar_slot 8
+execute as @a[tag=options_visible,tag=!option_selected] run execute store result score @s hotbar_slot run data get entity @s SelectedItemSlot
 
 #Select an option if player jumps
 execute as @a[tag=options_visible] if score @s option_jumping matches 1 run tag @s add option_selected
