@@ -2,24 +2,24 @@
 execute as @a at @s if score @s deathsnow matches 1.. run summon minecraft:armor_stand ~ ~ ~2 {NoGravity:1,Invisible:1,Marker:1,Tags:[death_marker]}
 
 #Summon player head
-execute as @a[name=GrootWeAre] at @s if score @s deathsnow matches 1.. run summon minecraft:item ~ ~ ~2 {Item:{id:player_head,Count:1,tag:{SkullOwner:"GrootWeAre"}}}
+execute as @a[name=WeWereGroot] at @s if score @s deathsnow matches 1.. run summon minecraft:item ~ ~ ~2 {Item:{id:player_head,Count:1,tag:{SkullOwner:"WeWereGroot"}}}
 execute as @a[name=TheRezzieHunter] at @s if score @s deathsnow matches 1.. run summon minecraft:item ~ ~ ~2 {Item:{id:player_head,Count:1,tag:{SkullOwner:"TheRezzieHunter"}}}
 execute as @a[name=Smoler] at @s if score @s deathsnow matches 1.. run summon minecraft:item ~ ~ ~2 {Item:{id:player_head,Count:1,tag:{SkullOwner:"Smoler"}}}
 execute as @a[name=Phino01] at @s if score @s deathsnow matches 1.. run summon minecraft:item ~ ~ ~2 {Item:{id:player_head,Count:1,tag:{SkullOwner:"Phino01"}}}
 execute as @a[name=Invictus13] at @s if score @s deathsnow matches 1.. run summon minecraft:item ~ ~ ~2 {Item:{id:player_head,Count:1,tag:{SkullOwner:"Invictus13"}}}
-execute as @a[name=EyeAmGroot] at @s if score @s deathsnow matches 1.. run summon minecraft:item ~ ~ ~2 {Item:{id:player_head,Count:1,tag:{SkullOwner:"EyeAmGroot"}}}
+execute as @a[name=EyeWasGroot] at @s if score @s deathsnow matches 1.. run summon minecraft:item ~ ~ ~2 {Item:{id:player_head,Count:1,tag:{SkullOwner:"EyeWasGroot"}}}
 execute as @a[name=MimilLeBoldBoy] at @s if score @s deathsnow matches 1.. run summon minecraft:item ~ ~ ~2 {Item:{id:player_head,Count:1,tag:{SkullOwner:"MimilLeBoldBoy"}}}
 execute as @a[name=EccTheEnderman] at @s if score @s deathsnow matches 1.. run summon minecraft:item ~ ~ ~2 {Item:{id:player_head,Count:1,tag:{SkullOwner:"EccTheEnderman"}}}
 execute as @a[name=Mr_Organic_97] at @s if score @s deathsnow matches 1.. run summon minecraft:item ~ ~ ~2 {Item:{id:player_head,Count:1,tag:{SkullOwner:"Mr_Organic_97"}}}
 execute as @a[name=IAmNo_One] at @s if score @s deathsnow matches 1.. run summon minecraft:item ~ ~ ~2 {Item:{id:player_head,Count:1,tag:{SkullOwner:"IAmNo_One"}}}
 
 #Play death sound
-execute as @a[name=GrootWeAre] at @s if score @s deathsnow matches 1.. run playsound minecraft:koyc.player.grootweare.death player @a
+execute as @a[name=WeWereGroot] at @s if score @s deathsnow matches 1.. run playsound minecraft:koyc.player.weweregroot.death player @a
 execute as @a[name=TheRezzieHunter] at @s if score @s deathsnow matches 1.. run playsound minecraft:koyc.player.therezziehunter.death player @a
 execute as @a[name=Smoler] at @s if score @s deathsnow matches 1.. run playsound minecraft:koyc.player.smoler.death player @a
 execute as @a[name=Phino01] at @s if score @s deathsnow matches 1.. run playsound minecraft:koyc.player.phino01.death player @a
 execute as @a[name=Invictus13] at @s if score @s deathsnow matches 1.. run playsound minecraft:koyc.player.invictus13.death player @a
-execute as @a[name=EyeAmGroot] at @s if score @s deathsnow matches 1.. run playsound minecraft:koyc.player.eyeamgroot.death player @a
+execute as @a[name=EyeWasGroot] at @s if score @s deathsnow matches 1.. run playsound minecraft:koyc.player.eyewasgroot.death player @a
 execute as @a[name=MimilLeBoldBoy] at @s if score @s deathsnow matches 1.. run playsound minecraft:koyc.player.mimilleboldboy.death player @a
 execute as @a[name=EccTheEnderman] at @s if score @s deathsnow matches 1.. run playsound minecraft:koyc.player.ecctheenderman.death player @a
 execute as @a[name=Mr_Organic_97] at @s if score @s deathsnow matches 1.. run playsound minecraft:koyc.player.mr_organic_97.death player @a
