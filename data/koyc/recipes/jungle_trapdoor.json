@@ -1,11 +1,15 @@
 {
-    "type": "crafting_shapeless",
+    "type": "crafting_shaped",
 	"group": "wooden_trapdoor",
-	"ingredients": [
-		{
-			"item": "minecraft:jungle_door"
-		}
+	"pattern": [
+	"###",
+	"###"
 	],
+	"key": {
+		"#": {
+			"item": "minecraft:jungle_planks"
+		}
+	},
     "result": {
 		"item": "minecraft:jungle_trapdoor",
 		"count": 2
