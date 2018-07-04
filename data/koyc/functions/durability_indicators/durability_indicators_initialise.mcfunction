@@ -1,0 +1,1 @@
+scoreboard players set @a elytra_timer 0

@@ -131,6 +131,13 @@ execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_red] if score @s d
 execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability", "color": "red"}
 execute as @a[name=WeWereGroot,tag=flying,tag=!bossbar_elytra_low] if score @s dur_elytra matches ..49 run bossbar set minecraft:elytra_durability_weweregroot name {"text": "Elytra Durability Very Low", "color": "red"}
 
+execute as @a[tag=flying, tag=!bossbar_elytra_low] at @s if score @s dur_elytra matches ..49 run playsound koyc:notification master @s
+execute as @a[tag=flying] at @s if score @s dur_elytra matches ..49 if score @s elytra_timer matches 0 run playsound koyc:notification master @s
+
+execute as @a[tag=flying] if score @s dur_elytra matches ..49 if score @s elytra_timer matches 0 run tag @s remove bossbar_elytra_low
+execute as @a[tag=flying, tag=!bossbar_elytra_low] if score @s dur_elytra matches ..49 if score @s elytra_timer matches 0 run scoreboard players operation @s elytra_timer += @s dur_elytra
+execute as @a[tag=flying] if score @s dur_elytra matches ..49 if score @s elytra_timer matches 1.. run scoreboard players remove @s elytra_timer 1
+
 execute as @a[tag=flying,tag=!bossbar_elytra_red] if score @s dur_elytra matches ..143 run tag @s add bossbar_elytra_red
 execute as @a[tag=flying,tag=bossbar_elytra_red] if score @s dur_elytra matches 144.. run tag @s remove bossbar_elytra_red
 execute as @a[tag=flying,tag=!bossbar_elytra_low] if score @s dur_elytra matches ..49 run tag @s add bossbar_elytra_low

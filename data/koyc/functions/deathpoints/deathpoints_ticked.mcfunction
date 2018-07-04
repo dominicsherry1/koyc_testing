@@ -14,16 +14,16 @@ execute as @a[name=Mr_Organic_97] at @s if score @s deathsnow matches 1.. run su
 execute as @a[name=IAmNo_One] at @s if score @s deathsnow matches 1.. run summon minecraft:item ~ ~ ~2 {Item:{id:player_head,Count:1,tag:{SkullOwner:"IAmNo_One"}}}
 
 #Play death sound
-execute as @a[name=WeWereGroot] at @s if score @s deathsnow matches 1.. run playsound minecraft:koyc.player.weweregroot.death player @a
-execute as @a[name=TheRezzieHunter] at @s if score @s deathsnow matches 1.. run playsound minecraft:koyc.player.therezziehunter.death player @a
-execute as @a[name=Smoler] at @s if score @s deathsnow matches 1.. run playsound minecraft:koyc.player.smoler.death player @a
-execute as @a[name=Phino01] at @s if score @s deathsnow matches 1.. run playsound minecraft:koyc.player.phino01.death player @a
-execute as @a[name=Invictus13] at @s if score @s deathsnow matches 1.. run playsound minecraft:koyc.player.invictus13.death player @a
-execute as @a[name=EyeWasGroot] at @s if score @s deathsnow matches 1.. run playsound minecraft:koyc.player.eyewasgroot.death player @a
-execute as @a[name=MimilLeBoldBoy] at @s if score @s deathsnow matches 1.. run playsound minecraft:koyc.player.mimilleboldboy.death player @a
-execute as @a[name=EccTheEnderman] at @s if score @s deathsnow matches 1.. run playsound minecraft:koyc.player.ecctheenderman.death player @a
-execute as @a[name=Mr_Organic_97] at @s if score @s deathsnow matches 1.. run playsound minecraft:koyc.player.mr_organic_97.death player @a
-execute as @a[name=IAmNo_One] at @s if score @s deathsnow matches 1.. run playsound minecraft:koyc.player.iamno_one.death player @a
+execute as @a[name=WeWereGroot] at @s if score @s deathsnow matches 1.. run playsound koyc:player.weweregroot.death player @a
+execute as @a[name=TheRezzieHunter] at @s if score @s deathsnow matches 1.. run playsound koyc:player.therezziehunter.death player @a
+execute as @a[name=Smoler] at @s if score @s deathsnow matches 1.. run playsound koyc:player.smoler.death player @a
+execute as @a[name=Phino01] at @s if score @s deathsnow matches 1.. run playsound koyc:player.phino01.death player @a
+execute as @a[name=Invictus13] at @s if score @s deathsnow matches 1.. run playsound koyc:player.invictus13.death player @a
+execute as @a[name=EyeWasGroot] at @s if score @s deathsnow matches 1.. run playsound koyc:player.eyewasgroot.death player @a
+execute as @a[name=MimilLeBoldBoy] at @s if score @s deathsnow matches 1.. run playsound koyc:player.mimilleboldboy.death player @a
+execute as @a[name=EccTheEnderman] at @s if score @s deathsnow matches 1.. run playsound koyc:player.ecctheenderman.death player @a
+execute as @a[name=Mr_Organic_97] at @s if score @s deathsnow matches 1.. run playsound koyc:player.mr_organic_97.death player @a
+execute as @a[name=IAmNo_One] at @s if score @s deathsnow matches 1.. run playsound koyc:player.iamno_one.death player @a
 
 #Set item despawn time
 execute as @e[type=armor_stand,tag=death_marker] at @s run data merge entity @e[type=item,tag=!long_life,distance=..63,limit=1] {Tags:[long_life],Age:-29167}

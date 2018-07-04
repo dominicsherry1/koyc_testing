@@ -12,13 +12,13 @@ execute as @a if score @s option_click_cd matches 1.. run scoreboard players rem
 
 #Enable the options menu
 execute as @a[tag=options_visible_now,tag=!options_visible] if score @s option_click_cd matches 0 run scoreboard players set @s option_sel_cd -100
-execute as @a[tag=options_visible_now,tag=!options_visible] at @s if score @s option_click_cd matches 0 if score @s option_sneaking matches 0 run playsound minecraft:koyc.notification master @s
+execute as @a[tag=options_visible_now,tag=!options_visible] at @s if score @s option_click_cd matches 0 if score @s option_sneaking matches 0 run playsound koyc:notification master @s
 execute as @a[tag=options_visible_now,tag=!options_visible] if score @s option_click_cd matches 0 run tag @s add options_on
 execute as @a[tag=options_visible_now,tag=!options_visible] if score @s option_click_cd matches 0 run tag @s add options_visible
 
 #Disable the options menu
 execute as @a[tag=!options_visible_now,tag=options_visible] if score @s option_click_cd matches 0 run tag @s remove options_on
-execute as @a[tag=!options_visible_now,tag=options_visible] at @s if score @s option_click_cd matches 0 run playsound minecraft:koyc.notification master @s
+execute as @a[tag=!options_visible_now,tag=options_visible] at @s if score @s option_click_cd matches 0 run playsound koyc:notification master @s
 execute as @a[tag=!options_visible_now,tag=options_visible] if score @s option_click_cd matches 0 run tag @s remove options_visible
 
 #Show the options menu when player sneaks and looks down

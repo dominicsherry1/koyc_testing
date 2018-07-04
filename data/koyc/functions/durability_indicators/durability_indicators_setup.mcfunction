@@ -2,6 +2,7 @@ scoreboard objectives add flying minecraft.custom:minecraft.aviate_one_cm Player
 scoreboard objectives add slot_num dummy Slot number
 scoreboard objectives add dam_elytra dummy Elytra Damage
 scoreboard objectives add dur_elytra dummy Max Elytra Durability
+scoreboard objectives add elytra_timer dummy
 
 #WeWereGroot
 bossbar add elytra_durability_weweregroot {"text": "Elytra durability", "color": "green", "bold": true}
@@ -53,7 +54,7 @@ bossbar add elytra_durability_iamno_one {"text": "Elytra durability", "color": "
 bossbar set minecraft:elytra_durability_iamno_one color green
 bossbar set minecraft:elytra_durability_iamno_one max 432
 
-execute as @s tag @s remove bossbar_elytra_low
-execute as @s tag @s remove bossbar_elytra_red
-execute as @s tag @s remove bossbar_elytra_yellow
-execute as @s tag @s remove bossbar_elytra_green
+execute as @a run tag @s remove bossbar_elytra_low
+execute as @a run tag @s remove bossbar_elytra_red
+execute as @a run tag @s remove bossbar_elytra_yellow
+execute as @a run tag @s remove bossbar_elytra_green

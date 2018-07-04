@@ -8,7 +8,7 @@ execute as @r[nbt={Sleeping:1b}] run time add 120
 #Snoring
 scoreboard players add @a[nbt={Sleeping:1b}] sleep_time 1
 scoreboard players set @a[nbt={Sleeping:0b}] sleep_time 0
-execute as @a[nbt={Sleeping:1b}] at @s if score @s sleep_time matches 48 run playsound minecraft:koyc.snore master @a
+execute as @a[nbt={Sleeping:1b}] at @s if score @s sleep_time matches 48 run playsound koyc:snore master @a
 execute as @a[nbt={Sleeping:1b}] if score @s sleep_time matches 144.. run scoreboard players set @s sleep_time 0
 
 #Kick players from bed
