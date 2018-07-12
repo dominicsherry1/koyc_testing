@@ -75,6 +75,6 @@ scoreboard objectives add climbed_cm minecraft.custom:minecraft.climb_one_cm
 scoreboard objectives add climbed dummy Metres climbed
 scoreboard objectives add fallen_cm minecraft.custom:minecraft.fall_one_cm
 scoreboard objectives add fallen dummy Metres fallen
-scoreboard objectives add dived_cm minecraft.custom:minecraft.dive_one_cm
+scoreboard objectives add dived_cm minecraft.custom:minecraft.walk_under_water_one_cm
 scoreboard objectives add dived dummy Metres dived
 scoreboard objectives add jumps minecraft.custom:minecraft.jump Number of jumps

@@ -19,4 +19,5 @@ execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:dragon_head"}]}] at @s if
 
 #Custom head sounds
 execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOwner:{Id:"d532e209-ea0b-43da-a67d-4b735274e03c"}}}]}] at @s if score @s jumping_heads matches 1.. run playsound minecraft:entity.wither.ambient hostile @a
+
 execute as @a if score @s jumping_heads matches 1.. run scoreboard players set @s jumping_heads 0
