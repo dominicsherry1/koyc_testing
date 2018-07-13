@@ -30,7 +30,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{LocName:\"Black & White Rabbit Head\"},SkullOwner:{Id:\"c221fb91-29b4-4244-a282-6ed0ec83ed56\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjkzZmVlYzgyODQyOThlYTdjMzgyNGJiNmI2YmFlYjIxOTg0YmJmY2RhYzEzYTc4MWFjYzQzODVmIn19fQ==\"}]}}}"
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Black & White Rabbit Head\\\",\\\"italic\\\":false}\"},SkullOwner:{Id:\"c221fb91-29b4-4244-a282-6ed0ec83ed56\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjkzZmVlYzgyODQyOThlYTdjMzgyNGJiNmI2YmFlYjIxOTg0YmJmY2RhYzEzYTc4MWFjYzQzODVmIn19fQ==\"}]}}}"
 						}
 					]
 				}

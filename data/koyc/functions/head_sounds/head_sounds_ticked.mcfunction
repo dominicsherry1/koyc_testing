@@ -18,6 +18,9 @@ execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:creeper_head"}]}] at @s i
 execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:dragon_head"}]}] at @s if score @s jumping_heads matches 1.. run playsound minecraft:entity.enderdragon.ambient hostile @a
 
 #Custom head sounds
+#Husk
+execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOwner:{Id:"1abe147b-ea7a-470c-8e74-16ce8fed6cb6"}}}]}] at @s if score @s jumping_heads matches 1.. run playsound minecraft:entity.husk.ambient hostile @a
+#Wither
 execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOwner:{Id:"d532e209-ea0b-43da-a67d-4b735274e03c"}}}]}] at @s if score @s jumping_heads matches 1.. run playsound minecraft:entity.wither.ambient hostile @a
 
 execute as @a if score @s jumping_heads matches 1.. run scoreboard players set @s jumping_heads 0

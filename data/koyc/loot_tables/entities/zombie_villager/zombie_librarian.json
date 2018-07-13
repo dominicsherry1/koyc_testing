@@ -30,7 +30,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{LocName:\"Zombie Librarian Head\"},SkullOwner:{Id:\"17ecf859-a648-4b01-8d9c-c1403e68f680\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDRmMDhlYmQ0ZTI1Y2RhM2FkZTQ1Yjg2MzM3OGFkMzc3ZjE4YzUxMGRiNGQyOGU4MmJiMjQ0NTE0MzliMzczNCJ9fX0=\"}]}}}"
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Zombie Librarian Head\\\",\\\"italic\\\":false}\"},SkullOwner:{Id:\"17ecf859-a648-4b01-8d9c-c1403e68f680\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDRmMDhlYmQ0ZTI1Y2RhM2FkZTQ1Yjg2MzM3OGFkMzc3ZjE4YzUxMGRiNGQyOGU4MmJiMjQ0NTE0MzliMzczNCJ9fX0=\"}]}}}"
 						}
 					]
 				}
