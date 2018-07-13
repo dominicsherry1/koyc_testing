@@ -62,14 +62,48 @@ execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",
 #Creeper
 execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"f9318e11-a0c7-4cfd-85c9-2b2852e1a8b0"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Charged Creeper Head\",\"italic\":false}"}}}}
 #Horse
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"4083cd58-1325-4bfa-9efb-5b8b93a02493"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Black Horse Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"2dcb4f55-ab85-48ba-b7d2-7b57d3ec7bfa"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Brown Horse Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"5a2546e1-2213-4f2a-8cbe-5ffddf3e7269"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Chestnut Horse Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"c6abc94e-a5ff-45fe-a0d7-4e479f290a6f"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Dark Horse Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"65e8bd32-6f48-4b92-ab48-fe1add6b67d1"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Golden Horse Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"b600f9c3-9c3f-4e3c-828c-3ebb6414eaa7"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Gray Horse Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"d941cb68-8842-4f78-bdf8-5f1d3c6e7ac0"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"White Horse Head\",\"italic\":false}"}}}}
 #Husk
 execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"1abe147b-ea7a-470c-8e74-16ce8fed6cb6"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Husk Head\",\"italic\":false}"}}}}
 #Llama
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"75fb08e5-2419-46fa-bf09-57362138f234"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Brown Llama Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"dd0a3919-e919-428c-9298-6dcc416fec9d"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Creamy Llama Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"edca7a0d-770f-43d6-8ffc-f6a00e94e477"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Gray Llama Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"60d7893f-b634-48b8-8d6e-f07fa14f5115"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"White Llama Head\",\"italic\":false}"}}}}
 #Parrot
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"3ac775c2-c701-4ccd-bec2-5cc7a5c0bb7a"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Blue Parrot Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"0bd02c77-cd3f-4bf4-9d02-89cd7f58e06c"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Cyan Parrot Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"2a8680dd-7875-4c83-810a-5b866a3d4433"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Gray Parrot Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"b95a9198-cf0b-4cfa-bf6d-2f172dc6ee65"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Green Parrot Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"d890586d-3e18-41fc-a93d-9040dc25409b"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Red Parrot Head\",\"italic\":false}"}}}}
 #Rabbit
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"75920726-8338-4c09-b8b2-3fa466410ce2"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Black Rabbit Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"717a725b-257f-4172-bdba-5de8506fb6dc"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Brown Rabbit Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"dacb90db-f547-4b25-b9fd-c2aefc0b07fa"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Gold Rabbit Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"02703b0c-573f-4042-a91b-659a3981b508"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Salt & Pepper Rabbit Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"c221fb91-29b4-4244-a282-6ed0ec83ed56"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Black & White Rabbit Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"fe80d2df-9309-41c9-87ed-0988c988f5ff"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Toast Rabbit Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"583daed4-25cc-4cfe-9e92-56ae34076769"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"White Rabbit Head\",\"italic\":false}"}}}}
 #Sheep
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"9bb1e075-7a09-4bac-a8a4-441ee9184303"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Jeb_ Sheep Head\",\"italic\":false}"}}}}
 #Villager
 #Wither
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"119c371b-ea16-47c9-ad7f-23b3d894520a"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Wither Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"b6c43469-8904-4855-a024-813ac28aa2a5"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Invulnerable Wither Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"d532e209-ea0b-43da-a67d-4b735274e03c"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Wither Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"6943ecc3-4ffb-4d2d-803d-528eb5e9f6b6"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Invulnerable Wither Head\",\"italic\":false}"}}}}
 #Zombie Villager
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"30a2ad76-aa2f-4eac-a959-7a20182671a9"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Zombie Butcher Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"0070ca9a-4683-4e1d-8561-d1d83b0d2915"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Zombie Cleric Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"d66581ab-6454-47a2-baae-dc2bcef599ad"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Zombie Farmer Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"17ecf859-a648-4b01-8d9c-c1403e68f680"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Zombie Librarian Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"dd1b157c-d732-4d1c-8185-da205188a8cf"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Zombie Nitwit Head\",\"italic\":false}"}}}}
+execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"3144580f-4392-4eed-9d08-6f2007b360bc"}}}}] run data merge entity @s {Item:{tag:{display: {Name: "{\"text\":\"Zombie Smith Head\",\"italic\":false}"}}}}
 
 execute as @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head"}}] run tag @s add head_updated
