@@ -1,6 +1,6 @@
 #Calculate objectives
 execute as @a[tag=sidebar_on] run scoreboard players operation @s hours_played = @s ticks_played
-execute as @a[tag=sidebar_on] run scoreboard players operation @s hours_played /= @s ticks_to_hours
+execute as @a[tag=sidebar_on] run scoreboard players operation @s hours_played /= converter ticks_to_hours
 execute as @a[tag=sidebar_on] run scoreboard players operation @s stone_mined = @s stone_mined_a
 execute as @a[tag=sidebar_on] run scoreboard players operation @s stone_mined += @s stone_mined_b
 execute as @a[tag=sidebar_on] run scoreboard players operation @s stone_mined += @s stone_mined_c
@@ -13,37 +13,37 @@ execute as @a[tag=sidebar_on] run scoreboard players operation @s sword_swings +
 execute as @a[tag=sidebar_on] run scoreboard players operation @s sword_swings += @s sword_swings_c
 execute as @a[tag=sidebar_on] run scoreboard players operation @s sword_swings += @s sword_swings_d
 execute as @a[tag=sidebar_on] run scoreboard players operation @s last_death = @s last_death_t
-execute as @a[tag=sidebar_on] run scoreboard players operation @s last_death /= @s ticks_to_days
+execute as @a[tag=sidebar_on] run scoreboard players operation @s last_death /= converter ticks_to_days
 execute as @a[nbt={Sleeping:1b}] run scoreboard players set @s last_slept 0
 execute as @a[tag=sidebar_on] run scoreboard players operation @s last_slept = @s last_slept_t
-execute as @a[tag=sidebar_on] run scoreboard players operation @s last_slept /= @s ticks_to_days
+execute as @a[tag=sidebar_on] run scoreboard players operation @s last_slept /= converter ticks_to_days
 execute as @a[tag=sidebar_on] run scoreboard players operation @s potions_used = @s potions_used_a
 execute as @a[tag=sidebar_on] run scoreboard players operation @s potions_used += @s potions_used_b
 execute as @a[tag=sidebar_on] run scoreboard players operation @s potions_used += @s potions_used_c
 execute as @a[tag=sidebar_on] run scoreboard players operation @s sneaked_km = @s sneaked_cm
-execute as @a[tag=sidebar_on] run scoreboard players operation @s sneaked_km /= @s cm_to_km
+execute as @a[tag=sidebar_on] run scoreboard players operation @s sneaked_km /= converter cm_to_km
 execute as @a[tag=sidebar_on] run scoreboard players operation @s walked_km = @s walked_cm
-execute as @a[tag=sidebar_on] run scoreboard players operation @s walked_km /= @s cm_to_km
+execute as @a[tag=sidebar_on] run scoreboard players operation @s walked_km /= converter cm_to_km
 execute as @a[tag=sidebar_on] run scoreboard players operation @s sprinted_km = @s sprinted_cm
-execute as @a[tag=sidebar_on] run scoreboard players operation @s sprinted_km /= @s cm_to_km
+execute as @a[tag=sidebar_on] run scoreboard players operation @s sprinted_km /= converter cm_to_km
 execute as @a[tag=sidebar_on] run scoreboard players operation @s swam_km = @s swam_cm
-execute as @a[tag=sidebar_on] run scoreboard players operation @s swam_km /= @s cm_to_km
+execute as @a[tag=sidebar_on] run scoreboard players operation @s swam_km /= converter cm_to_km
 execute as @a[tag=sidebar_on] run scoreboard players operation @s flown_km = @s flown_cm
-execute as @a[tag=sidebar_on] run scoreboard players operation @s flown_km /= @s cm_to_km
+execute as @a[tag=sidebar_on] run scoreboard players operation @s flown_km /= converter cm_to_km
 execute as @a[tag=sidebar_on] run scoreboard players operation @s horsed_km = @s horsed_cm
-execute as @a[tag=sidebar_on] run scoreboard players operation @s horsed_km /= @s cm_to_km
+execute as @a[tag=sidebar_on] run scoreboard players operation @s horsed_km /= converter cm_to_km
 execute as @a[tag=sidebar_on] run scoreboard players operation @s boated_km = @s boated_cm
-execute as @a[tag=sidebar_on] run scoreboard players operation @s boated_km /= @s cm_to_km
+execute as @a[tag=sidebar_on] run scoreboard players operation @s boated_km /= converter cm_to_km
 execute as @a[tag=sidebar_on] run scoreboard players operation @s railed_km = @s railed_cm
-execute as @a[tag=sidebar_on] run scoreboard players operation @s railed_km /= @s cm_to_km
+execute as @a[tag=sidebar_on] run scoreboard players operation @s railed_km /= converter cm_to_km
 execute as @a[tag=sidebar_on] run scoreboard players operation @s pigged_km = @s pigged_cm
-execute as @a[tag=sidebar_on] run scoreboard players operation @s pigged_km /= @s cm_to_km
+execute as @a[tag=sidebar_on] run scoreboard players operation @s pigged_km /= converter cm_to_km
 execute as @a[tag=sidebar_on] run scoreboard players operation @s climbed = @s climbed_cm
-execute as @a[tag=sidebar_on] run scoreboard players operation @s climbed /= @s cm_to_m
+execute as @a[tag=sidebar_on] run scoreboard players operation @s climbed /= converter cm_to_m
 execute as @a[tag=sidebar_on] run scoreboard players operation @s fallen = @s fallen_cm
-execute as @a[tag=sidebar_on] run scoreboard players operation @s fallen /= @s cm_to_m
+execute as @a[tag=sidebar_on] run scoreboard players operation @s fallen /= converter cm_to_m
 execute as @a[tag=sidebar_on] run scoreboard players operation @s dived = @s dived_cm
-execute as @a[tag=sidebar_on] run scoreboard players operation @s dived /= @s cm_to_m
+execute as @a[tag=sidebar_on] run scoreboard players operation @s dived /= converter cm_to_m
 
 #Display objectives
 execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 0 run scoreboard objectives setdisplay sidebar armour
@@ -116,22 +116,24 @@ execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1320 run scorebo
 execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1320..1359 unless score @s sprinted_km matches 0.. run scoreboard players set @s sidebar_timer 1360
 execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1360 run scoreboard objectives setdisplay sidebar swam_km
 execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1360..1399 unless score @s swam_km matches 0.. run scoreboard players set @s sidebar_timer 1400
-execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1400 run scoreboard objectives setdisplay sidebar flown_km
-execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1400..1439 unless score @s flown_km matches 0.. run scoreboard players set @s sidebar_timer 1440
-execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1440 run scoreboard objectives setdisplay sidebar horsed_km
-execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1440..1479 unless score @s horsed_km matches 0.. run scoreboard players set @s sidebar_timer 1480
-execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1480 run scoreboard objectives setdisplay sidebar boated_km
-execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1480..1519 unless score @s boated_km matches 0.. run scoreboard players set @s sidebar_timer 1520
-execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1520 run scoreboard objectives setdisplay sidebar railed_km
-execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1520..1559 unless score @s railed_km matches 0.. run scoreboard players set @s sidebar_timer 1560
-execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1560 run scoreboard objectives setdisplay sidebar pigged_km
-execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1560..1599 unless score @s pigged_km matches 0.. run scoreboard players set @s sidebar_timer 1600
-execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1600 run scoreboard objectives setdisplay sidebar climbed
-execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1600..1639 unless score @s climbed matches 0.. run scoreboard players set @s sidebar_timer 1640
-execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1640 run scoreboard objectives setdisplay sidebar fallen
-execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1640..1679 unless score @s fallen matches 0.. run scoreboard players set @s sidebar_timer 1680
-execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1680 run scoreboard objectives setdisplay sidebar dived
-execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1680..1719 unless score @s dived matches 0.. run scoreboard players set @s sidebar_timer 1720
-execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1720 run scoreboard objectives setdisplay sidebar jumps
-execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1720..1759 unless score @s jumps matches 0.. run scoreboard players set @s sidebar_timer 1760
-execute as @a[tag=sidebar_on] if score @s sidebar_timer matches 1760.. run function koyc:sidebar_info/hide
+execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1400 run scoreboard objectives setdisplay sidebar elsa_km
+execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1400..1439 unless score @s swam_km matches 0.. run scoreboard players set @s sidebar_timer 1440
+execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1440 run scoreboard objectives setdisplay sidebar flown_km
+execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1440..1479 unless score @s flown_km matches 0.. run scoreboard players set @s sidebar_timer 1480
+execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1480 run scoreboard objectives setdisplay sidebar horsed_km
+execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1480..1519 unless score @s horsed_km matches 0.. run scoreboard players set @s sidebar_timer 1520
+execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1520 run scoreboard objectives setdisplay sidebar boated_km
+execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1520..1559 unless score @s boated_km matches 0.. run scoreboard players set @s sidebar_timer 1560
+execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1560 run scoreboard objectives setdisplay sidebar railed_km
+execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1560..1599 unless score @s railed_km matches 0.. run scoreboard players set @s sidebar_timer 1600
+execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1600 run scoreboard objectives setdisplay sidebar pigged_km
+execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1600..1639 unless score @s pigged_km matches 0.. run scoreboard players set @s sidebar_timer 1640
+execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1640 run scoreboard objectives setdisplay sidebar climbed
+execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1640..1679 unless score @s climbed matches 0.. run scoreboard players set @s sidebar_timer 1680
+execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1680 run scoreboard objectives setdisplay sidebar fallen
+execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1680..1719 unless score @s fallen matches 0.. run scoreboard players set @s sidebar_timer 1720
+execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1720 run scoreboard objectives setdisplay sidebar dived
+execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1720..1759 unless score @s dived matches 0.. run scoreboard players set @s sidebar_timer 1760
+execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1760 run scoreboard objectives setdisplay sidebar jumps
+execute as @r[tag=sidebar_on] if score @s sidebar_timer matches 1760..1799 unless score @s jumps matches 0.. run scoreboard players set @s sidebar_timer 1800
+execute as @a[tag=sidebar_on] if score @s sidebar_timer matches 1800.. run function koyc:sidebar_info/hide

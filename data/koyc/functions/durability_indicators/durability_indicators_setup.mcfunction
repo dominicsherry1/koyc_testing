@@ -1,7 +1,7 @@
-scoreboard objectives add flying minecraft.custom:minecraft.aviate_one_cm Players flying
-scoreboard objectives add slot_num dummy Slot number
-scoreboard objectives add dam_elytra dummy Elytra Damage
-scoreboard objectives add dur_elytra dummy Max Elytra Durability
+scoreboard objectives add flying minecraft.custom:minecraft.aviate_one_cm "Players flying"
+scoreboard objectives add slot_num dummy "Slot number"
+scoreboard objectives add dam_elytra dummy "Elytra Damage"
+scoreboard objectives add dur_elytra dummy "Max Elytra Durability"
 scoreboard objectives add elytra_timer dummy
 
 #WeWereGroot

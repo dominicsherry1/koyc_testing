@@ -1,1 +1,1 @@
-scoreboard objectives add isUsingJukebox minecraft.custom:minecraft.play_record Using a jukebox
+scoreboard objectives add isUsingJukebox minecraft.custom:minecraft.play_record "Using a jukebox"

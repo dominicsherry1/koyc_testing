@@ -1,1 +1,1 @@
-scoreboard objectives add jumping_heads minecraft.custom:minecraft.jump Players jumping
+scoreboard objectives add jumping_heads minecraft.custom:minecraft.jump "Players jumping"

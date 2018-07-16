@@ -30,6 +30,6 @@ team modify invisible collisionRule never
 team modify invisible deathMessageVisibility never
 team modify invisible nametagVisibility never
 team modify invisible seeFriendlyInvisibles false
-scoreboard objectives add pvp_overworld dummy PvP enabled in The Overworld
-scoreboard objectives add pvp_nether dummy PvP enabled in The Nether
-scoreboard objectives add pvp_end dummy PvP enabled in The End
+scoreboard objectives add pvp_overworld dummy "PvP enabled in The Overworld"
+scoreboard objectives add pvp_nether dummy "PvP enabled in The Nether"
+scoreboard objectives add pvp_end dummy "PvP enabled in The End"

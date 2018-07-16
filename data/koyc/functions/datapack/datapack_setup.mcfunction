@@ -5,5 +5,5 @@ gamerule disableElytraMovementCheck true
 gamerule logAdminCommands false
 gamerule spectatorsGenerateChunks false
 
-scoreboard objectives add levels level Levels
+scoreboard objectives add levels level "Levels"
 scoreboard objectives setdisplay list levels
