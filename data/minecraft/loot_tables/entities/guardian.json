@@ -115,7 +115,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{LocName:\"Gaurdian Head\"},SkullOwner:{Id:\"e57e58c0-bb9c-4cb0-a0a2-c137dfc91164\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGZiNjc1Y2I1YTdlM2ZkMjVlMjlkYTgyNThmMjRmYzAyMGIzZmE5NTAzNjJiOGJjOGViMjUyZTU2ZTc0In19fQ==\"}]}}}"
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Gaurdian Head\\\",\\\"italic\\\":false}\"},SkullOwner:{Id:\"e57e58c0-bb9c-4cb0-a0a2-c137dfc91164\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGZiNjc1Y2I1YTdlM2ZkMjVlMjlkYTgyNThmMjRmYzAyMGIzZmE5NTAzNjJiOGJjOGViMjUyZTU2ZTc0In19fQ==\"}]}}}"
 						}
 					]
 				}
