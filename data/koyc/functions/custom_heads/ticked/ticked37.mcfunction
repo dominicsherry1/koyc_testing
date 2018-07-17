@@ -1,0 +1,3 @@
+#Zombie Villager
+data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"30a2ad76-aa2f-4eac-a959-7a20182671a9"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"Zombie Butcher Head\",\"italic\":false}"}}}}
+data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"0070ca9a-4683-4e1d-8561-d1d83b0d2915"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"Zombie Cleric Head\",\"italic\":false}"}}}}

@@ -1,0 +1,3 @@
+#Sheep
+data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"9bb1e075-7a09-4bac-a8a4-441ee9184303"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"Jeb_ Sheep Head\",\"italic\":false}"}}}}
+data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"f6801465-fd07-47f9-92a1-3ae921c3ef05"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"Black Sheep Head\",\"italic\":false}"}}}}

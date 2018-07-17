@@ -1,0 +1,5 @@
+data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"d941cb68-8842-4f78-bdf8-5f1d3c6e7ac0"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"White Horse Head\",\"italic\":false}"}}}}
+#Husk
+data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"1abe147b-ea7a-470c-8e74-16ce8fed6cb6"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"Husk Head\",\"italic\":false}"}}}}
+#Iron Golem
+data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"7cb6e9a5-994f-40d5-9bfc-4ba5d796d21e"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"Iron Golem Head\",\"italic\":false}"}}}}

@@ -1,11 +1,51 @@
 {
 	"pools": [
 		{
+			"conditions": [
+				{
+					"condition": "killed_by_player"
+				},
+				{
+					"condition": "random_chance_with_looting",
+					"chance": 0.05,
+					"looting_multiplier": 0.02
+				}
+			],
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "loot_table",
-					"name": "minecraft:entities/villager",
+					"type": "item",
+					"name": "minecraft:emerald",
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "minecraft:iron_ingot",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:carrot",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:potato",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:wheat",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:bread",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:beetroot",
 					"weight": 1
 				}
 			]

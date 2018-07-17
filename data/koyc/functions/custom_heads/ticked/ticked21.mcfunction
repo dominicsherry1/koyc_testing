@@ -1,0 +1,2 @@
+data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"6484f6d0-03c5-4c88-b121-c776dd24e6b4"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"Cyan Sheep Head\",\"italic\":false}"}}}}
+data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"1ad6a380-fd48-43e0-a7ea-5685072f37b6"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"Gray Sheep Head\",\"italic\":false}"}}}}

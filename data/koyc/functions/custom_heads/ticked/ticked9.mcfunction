@@ -1,0 +1,4 @@
+#Llama
+data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"75fb08e5-2419-46fa-bf09-57362138f234"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"Brown Llama Head\",\"italic\":false}"}}}}
+data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"dd0a3919-e919-428c-9298-6dcc416fec9d"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"Creamy Llama Head\",\"italic\":false}"}}}}
+data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"edca7a0d-770f-43d6-8ffc-f6a00e94e477"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"Gray Llama Head\",\"italic\":false}"}}}}
