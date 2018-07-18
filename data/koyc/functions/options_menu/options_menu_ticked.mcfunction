@@ -74,13 +74,13 @@ execute as @a[nbt={SelectedItemSlot:3},tag=options_visible,tag=tips] if score @s
 #Show/skip tips
 execute as @a[nbt={SelectedItemSlot:4},tag=options_visible,tag=!option_selected] unless score @s hotbar_slot matches 4 run scoreboard players set @s option_sel_cd -100
 execute as @a[nbt={SelectedItemSlot:4},tag=options_visible,tag=!option_selected] if score @s tips_timer matches ..199 unless score @s hotbar_slot matches 4 run bossbar set minecraft:player_options name {"text":"Show tips","color":"green","bold":true}
-execute as @a[nbt={SelectedItemSlot:4},tag=options_visible,tag=!option_selected] if score @s tips_timer matches 4401.. unless score @s hotbar_slot matches 4 run bossbar set minecraft:player_options name {"text":"Show tips","color":"green","bold":true}
+execute as @a[nbt={SelectedItemSlot:4},tag=options_visible,tag=!option_selected] if score @s tips_timer matches 4201.. unless score @s hotbar_slot matches 4 run bossbar set minecraft:player_options name {"text":"Show tips","color":"green","bold":true}
 execute as @a[nbt={SelectedItemSlot:4},tag=options_visible,tag=!option_selected] if score @s tips_timer matches 200..4200 unless score @s hotbar_slot matches 4 run bossbar set minecraft:player_options name {"text":"Skip tips","color":"red","bold":true}
 execute as @a[nbt={SelectedItemSlot:4},tag=options_visible] if score @s tips_timer matches ..199 if score @s option_sel_cd matches ..-98 run bossbar set minecraft:player_options name {"text":"Show tips","color":"green","bold":true}
-execute as @a[nbt={SelectedItemSlot:4},tag=options_visible] if score @s tips_timer matches 4401.. if score @s option_sel_cd matches ..-98 run bossbar set minecraft:player_options name {"text":"Show tips","color":"green","bold":true}
+execute as @a[nbt={SelectedItemSlot:4},tag=options_visible] if score @s tips_timer matches 4201.. if score @s option_sel_cd matches ..-98 run bossbar set minecraft:player_options name {"text":"Show tips","color":"green","bold":true}
 execute as @a[nbt={SelectedItemSlot:4},tag=options_visible] if score @s tips_timer matches 200..4200 if score @s option_sel_cd matches ..-98 run bossbar set minecraft:player_options name {"text":"Skip tips","color":"red","bold":true}
 execute as @a[nbt={SelectedItemSlot:4},tag=options_visible,tag=!option_selected] if score @s tips_timer matches ..199 unless score @s hotbar_slot matches 4 run bossbar set minecraft:player_options color green
-execute as @a[nbt={SelectedItemSlot:4},tag=options_visible,tag=!option_selected] if score @s tips_timer matches 4401.. unless score @s hotbar_slot matches 4 run bossbar set minecraft:player_options color green
+execute as @a[nbt={SelectedItemSlot:4},tag=options_visible,tag=!option_selected] if score @s tips_timer matches 4201.. unless score @s hotbar_slot matches 4 run bossbar set minecraft:player_options color green
 execute as @a[nbt={SelectedItemSlot:4},tag=options_visible,tag=!option_selected] if score @s tips_timer matches 200..4200 unless score @s hotbar_slot matches 4 run bossbar set minecraft:player_options color red
 execute as @a[nbt={SelectedItemSlot:4},tag=options_visible] if score @s tips_timer matches ..199 if score @s option_sel_cd matches ..-98 run bossbar set minecraft:player_options color green
 execute as @a[nbt={SelectedItemSlot:4},tag=options_visible] if score @s tips_timer matches 4201.. if score @s option_sel_cd matches ..-98 run bossbar set minecraft:player_options color green
@@ -185,7 +185,7 @@ execute as @a[tag=options_visible,tag=option_selected] if score @s option_sel_cd
 execute as @a[tag=options_visible,tag=option_selected] if score @s option_sel_cd matches 0 if score @s hotbar_slot matches 5 run function koyc:sidebar_info/toggle
 
 #Demo
-execute as @a[tag=options_visible,tag=option_selected] if score @s option_sel_cd matches 0 if score @s hotbar_slot matches 6 run title @s actionbar {"text":"Sneak to bring back this menu again","color":"white","bold":true}
+execute as @a[tag=options_visible,tag=option_selected] if score @s option_sel_cd matches 0 if score @s hotbar_slot matches 6 run title @s actionbar {"text":"Sneak and look straight down to bring back this menu again","color":"white","bold":true}
 
 #Disable options menu
 execute as @a[tag=options_visible,tag=option_selected] if score @s option_sel_cd matches 0 if score @s hotbar_slot matches 7 run function koyc:options_menu/disable

@@ -13,7 +13,6 @@
 		"koyc:one_player_sleeping/one_player_sleeping_initialise",
 		"koyc:pvp_toggle/pvp_toggle_setup",
 		"koyc:pvp_toggle/pvp_toggle_initialise",
-		"koyc:datapack/disable_vanilla_setup",
 		"koyc:sidebar_info/sidebar_info_setup",
 		"koyc:sidebar_info/sidebar_info_initialise",
 		"koyc:options_menu/options_menu_setup",

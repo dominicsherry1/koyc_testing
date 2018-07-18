@@ -32,7 +32,33 @@
 				{
 					"type": "item",
 					"name": "minecraft:cod",
-					"weight": 3,
+					"weight": 1,
+					"functions": [
+						{
+							"function": "looting_enchant",
+							"count": {
+								"min": 0,
+								"max": 1
+							}
+						},
+						{
+							"function": "furnace_smelt",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "this",
+									"properties": {
+										"on_fire": true
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:salmon",
+					"weight": 1,
 					"functions": [
 						{
 							"function": "looting_enchant",
@@ -81,7 +107,21 @@
 				{
 					"type": "item",
 					"name": "minecraft:wet_sponge",
-					"weight": 1
+					"weight": 1,
+					"functions": [
+						{
+							"function": "furnace_smelt",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "this",
+									"properties": {
+										"on_fire": true
+									}
+								}
+							]
+						}
+					]
 				}
 			],
 			"conditions": [

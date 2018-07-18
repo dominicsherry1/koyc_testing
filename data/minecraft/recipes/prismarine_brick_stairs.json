@@ -1,6 +1,6 @@
 {
   "type": "crafting_shaped",
-  "group": "wooden_stairs",
+  "group": "prismarine_stairs",
   "pattern": [
     "#  ",
     "## ",
@@ -8,11 +8,11 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_planks"
+      "item": "minecraft:prismarine_bricks"
     }
   },
   "result": {
-    "item": "minecraft:acacia_stairs",
+    "item": "minecraft:prismarine_brick_stairs",
     "count": 8
   }
 }

@@ -6,7 +6,6 @@
 				{
 					"type": "item",
 					"name": "minecraft:cod",
-					"weight": 3,
 					"functions": [
 						{
 							"function": "set_count",
@@ -21,6 +20,50 @@
 								"min": 0,
 								"max": 1
 							}
+						},
+						{
+							"function": "furnace_smelt",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "this",
+									"properties": {
+										"on_fire": true
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:salmon",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 2
+							}
+						},
+						{
+							"function": "looting_enchant",
+							"count": {
+								"min": 0,
+								"max": 1
+							}
+						},
+						{
+							"function": "furnace_smelt",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "this",
+									"properties": {
+										"on_fire": true
+									}
+								}
+							]
 						}
 					]
 				}

@@ -37,11 +37,18 @@ data merge entity @e[type=rabbit,tag=!head_updated,nbt={RabbitType:99},sort=near
 #Sheep
 data merge entity @e[type=sheep,tag=!head_updated,nbt={CustomName:"{\"text\":\"jeb_\"}"},sort=nearest,limit=1] {DeathLootTable:"koyc:entities/sheep/jeb_sheep",Tags:["head_updated"]}
 #Villager
-data merge entity @e[type=villager,tag=!head_updated,nbt={Profession:0},sort=nearest,limit=1] {DeathLootTable:"koyc:entities/villager/farmer",Tags:["head_updated"]}
-data merge entity @e[type=villager,tag=!head_updated,nbt={Profession:1},sort=nearest,limit=1] {DeathLootTable:"koyc:entities/villager/librarian",Tags:["head_updated"]}
+data merge entity @e[type=villager,tag=!head_updated,nbt={Profession:0,Career:1},sort=nearest,limit=1] {DeathLootTable:"koyc:entities/villager/farmer/farmer",Tags:["head_updated"]}
+data merge entity @e[type=villager,tag=!head_updated,nbt={Profession:0,Career:2},sort=nearest,limit=1] {DeathLootTable:"koyc:entities/villager/farmer/fisherman",Tags:["head_updated"]}
+data merge entity @e[type=villager,tag=!head_updated,nbt={Profession:0,Career:3},sort=nearest,limit=1] {DeathLootTable:"koyc:entities/villager/farmer/shepherd",Tags:["head_updated"]}
+data merge entity @e[type=villager,tag=!head_updated,nbt={Profession:0,Career:4},sort=nearest,limit=1] {DeathLootTable:"koyc:entities/villager/farmer/fletcher",Tags:["head_updated"]}
+data merge entity @e[type=villager,tag=!head_updated,nbt={Profession:1,Career:1},sort=nearest,limit=1] {DeathLootTable:"koyc:entities/villager/librarian/librarian",Tags:["head_updated"]}
+data merge entity @e[type=villager,tag=!head_updated,nbt={Profession:1,Career:2},sort=nearest,limit=1] {DeathLootTable:"koyc:entities/villager/librarian/cartographer",Tags:["head_updated"]}
 data merge entity @e[type=villager,tag=!head_updated,nbt={Profession:2},sort=nearest,limit=1] {DeathLootTable:"koyc:entities/villager/cleric",Tags:["head_updated"]}
-data merge entity @e[type=villager,tag=!head_updated,nbt={Profession:3},sort=nearest,limit=1] {DeathLootTable:"koyc:entities/villager/smith",Tags:["head_updated"]}
-data merge entity @e[type=villager,tag=!head_updated,nbt={Profession:4},sort=nearest,limit=1] {DeathLootTable:"koyc:entities/villager/butcher",Tags:["head_updated"]}
+data merge entity @e[type=villager,tag=!head_updated,nbt={Profession:3,Career:1},sort=nearest,limit=1] {DeathLootTable:"koyc:entities/villager/blacksmith/armourer",Tags:["head_updated"]}
+data merge entity @e[type=villager,tag=!head_updated,nbt={Profession:3,Career:2},sort=nearest,limit=1] {DeathLootTable:"koyc:entities/villager/blacksmith/weaponsmith",Tags:["head_updated"]}
+data merge entity @e[type=villager,tag=!head_updated,nbt={Profession:3,Career:3},sort=nearest,limit=1] {DeathLootTable:"koyc:entities/villager/blacksmith/toolsmith",Tags:["head_updated"]}
+data merge entity @e[type=villager,tag=!head_updated,nbt={Profession:4,Career:1},sort=nearest,limit=1] {DeathLootTable:"koyc:entities/villager/butcher/butcher",Tags:["head_updated"]}
+data merge entity @e[type=villager,tag=!head_updated,nbt={Profession:4,Career:2},sort=nearest,limit=1] {DeathLootTable:"koyc:entities/villager/butcher/leatherworker",Tags:["head_updated"]}
 data merge entity @e[type=villager,tag=!head_updated,nbt={Profession:5},sort=nearest,limit=1] {DeathLootTable:"koyc:entities/villager/nitwit",Tags:["head_updated"]}
 #Wither
 data merge entity @e[type=wither,tag=!head_updated,sort=nearest,limit=1] {DeathLootTable:"koyc:entities/wither/wither",Tags:["head_updated"]}
@@ -58,6 +65,8 @@ data merge entity @e[type=zombie_villager,tag=!head_updated,nbt={Profession:5},s
 # 1. data merge entity @e[sort=nearest,limit=1] > execute as @e[] run data merge entity @s
 # * Since we only expext one item to be found occasionally we can assume that the @e[limit=1] selector does not slow down execution
 # 2. Split into 40ths so each command runs once every 40 ticks and load is distributed across the server (Item PickupDelay is 40 ticks so no chance of item data not updating in time)
+
+data merge entity @e[type=item,tag=!head_updated,nbt={Item:{id:"minecraft:player_head"}},sort=nearest,limit=1] {PickupDelay: 40s, Tags:[head_updated]}
 
 execute as @r if score ticks_fourtieths ticks_fourtieths matches 0 run function koyc:custom_heads/ticked/ticked0
 execute as @r if score ticks_fourtieths ticks_fourtieths matches 1 run function koyc:custom_heads/ticked/ticked1

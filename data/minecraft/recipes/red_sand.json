@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+	"group": "wooden_trapdoor",
+	"pattern": [
+	"###",
+	"#O#",
+	"###"
+	],
+	"key": {
+		"O": {
+			"item": "minecraft:rose_red"
+		},
+		"#": {
+			"item": "minecraft:sand"
+		}
+	},
+    "result": {
+		"item": "minecraft:red_sand",
+		"count": 9
+	}
+}

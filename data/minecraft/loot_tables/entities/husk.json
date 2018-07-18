@@ -52,6 +52,10 @@
 							"limit": 5
 						}
 					]
+				},
+				{
+					"type": "empty",
+					"weight": 1
 				}
 			]
 		},
