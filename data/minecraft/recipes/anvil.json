@@ -1,14 +1,19 @@
 {
-	"type": "crafting_shapeless",
+	"type": "crafting_shaped",
 	"group": "anvil",
-	"ingredients": [
-		{
-			"item": "minecraft:chipped_anvil"
-		},
-		{
-			"item": "minecraft:chipped_anvil"
-		}
+	"pattern": [
+		"III",
+		" i ",
+		"iii"
 	],
+	"key": {
+		"I": {
+			"item": "minecraft:iron_block"
+		},
+		"i": {
+			"item": "minecraft:iron_ingot"
+		}
+	},
 	"result": {
 		"item": "minecraft:anvil"
 	}

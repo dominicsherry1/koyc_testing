@@ -1,3 +1,3 @@
 #Wither
-data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"119c371b-ea16-47c9-ad7f-23b3d894520a"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"Wither Head\",\"italic\":false}"}}}}
-data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"b6c43469-8904-4855-a024-813ac28aa2a5"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"Invulnerable Wither Head\",\"italic\":false}"}}}}
+data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"119c371b-ea16-47c9-ad7f-23b3d894520a"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"Wither Head\",\"italic\":false}"}}}, PickupDelay: 0s}
+data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"b6c43469-8904-4855-a024-813ac28aa2a5"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"Invulnerable Wither Head\",\"italic\":false}"}}}, PickupDelay: 0s}

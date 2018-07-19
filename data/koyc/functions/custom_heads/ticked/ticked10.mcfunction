@@ -1,5 +1,5 @@
-data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"60d7893f-b634-48b8-8d6e-f07fa14f5115"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"White Llama Head\",\"italic\":false}"}}}}
+data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"60d7893f-b634-48b8-8d6e-f07fa14f5115"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"White Llama Head\",\"italic\":false}"}}}, PickupDelay: 0s}
 #Magma Cube
-data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"96aced64-5b85-4b99-b825-53cd7a9f9726"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"Magma Cube Head\",\"italic\":false}"}}}}
+data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"96aced64-5b85-4b99-b825-53cd7a9f9726"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"Magma Cube Head\",\"italic\":false}"}}}, PickupDelay: 0s}
 #Mule
-data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"1fd5db60-329f-4dcd-9e8d-7d4adc68ff29"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"Mule Head\",\"italic\":false}"}}}}
+data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"1fd5db60-329f-4dcd-9e8d-7d4adc68ff29"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"Mule Head\",\"italic\":false}"}}}, PickupDelay: 0s}
