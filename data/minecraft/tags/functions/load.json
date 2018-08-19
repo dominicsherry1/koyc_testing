@@ -1,8 +1,7 @@
 {
 	"values": [
+		"koyc:afk/afk_setup",
 		"koyc:datapack/datapack_setup",
-		"koyc:deathpoints/deathpoints_setup",
-		"koyc:deathpoints/deathpoints_initialise",
 		"koyc:durability_indicators/durability_indicators_setup",
 		"koyc:durability_indicators/durability_indicators_initialise",
 		"koyc:head_sounds/head_sounds_setup",
@@ -15,6 +14,7 @@
 		"koyc:pvp_toggle/pvp_toggle_initialise",
 		"koyc:sidebar_info/sidebar_info_setup",
 		"koyc:sidebar_info/sidebar_info_initialise",
+		"koyc:teams/teams_setup",
 		"koyc:options_menu/options_menu_setup",
 		"koyc:options_menu/options_menu_initialise",
 		"koyc:datapack/welcome_message_setup",

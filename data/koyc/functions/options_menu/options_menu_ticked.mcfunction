@@ -93,10 +93,10 @@ execute as @a[nbt={SelectedItemSlot:5},tag=options_visible,tag=!option_selected,
 execute as @a[nbt={SelectedItemSlot:5},tag=options_visible,tag=!option_selected,tag=!sidebar_on] run bossbar set minecraft:player_options color blue
 execute as @a[nbt={SelectedItemSlot:5},tag=options_visible,tag=!option_selected,tag=sidebar_on] run bossbar set minecraft:player_options color white
 
-#Demo
+#Go AFK
 execute as @a[nbt={SelectedItemSlot:6},tag=options_visible,tag=!option_selected] unless score @s hotbar_slot matches 6 run scoreboard players set @s option_sel_cd -100
-execute as @a[nbt={SelectedItemSlot:6},tag=options_visible,tag=!option_selected] unless score @s hotbar_slot matches 6 run bossbar set minecraft:player_options name {"text":"Jump to select an option","color":"white","bold":true}
-execute as @a[nbt={SelectedItemSlot:6},tag=options_visible] if score @s option_sel_cd matches ..-98 run bossbar set minecraft:player_options name {"text":"Jump to select an option","color":"white","bold":true}
+execute as @a[nbt={SelectedItemSlot:6},tag=options_visible,tag=!option_selected] unless score @s hotbar_slot matches 6 run bossbar set minecraft:player_options name {"text":"Go AFK","color":"white","bold":true}
+execute as @a[nbt={SelectedItemSlot:6},tag=options_visible] if score @s option_sel_cd matches ..-98 run bossbar set minecraft:player_options name {"text":"Go AFK","color":"white","bold":true}
 execute as @a[nbt={SelectedItemSlot:6},tag=options_visible,tag=!option_selected] unless score @s hotbar_slot matches 6 run bossbar set minecraft:player_options color white
 
 #Disable options menu
@@ -151,8 +151,8 @@ execute as @a[nbt={SelectedItemSlot:4}] if score @s tips_timer matches 200..4200
 execute as @a[nbt={SelectedItemSlot:5},tag=!sidebar_on] if score @s option_sel_cd matches 40 run bossbar set minecraft:player_options name {"text":"Showing sidebar info, sneak to stop","color":"blue","bold":true}
 execute as @a[nbt={SelectedItemSlot:5},tag=sidebar_on] if score @s option_sel_cd matches 40 run bossbar set minecraft:player_options name {"text":"Hiding sidebar info, sneak to stop","color":"gray","bold":true}
 
-#Demo
-execute as @a[nbt={SelectedItemSlot:6}] if score @s option_sel_cd matches 40 run bossbar set minecraft:player_options name {"text":"Sneak to return to menu","color":"white","bold":true}
+#Go AFK
+execute as @a[nbt={SelectedItemSlot:6}] if score @s option_sel_cd matches 40 run bossbar set minecraft:player_options name {"text":"Going AFK, sneak to undo","color":"white","bold":true}
 
 #Disable options menu
 execute as @a[nbt={SelectedItemSlot:7}] if score @s option_sel_cd matches 40 run bossbar set minecraft:player_options name {"text":"Disabling options menu, sneak to undo","color":"red","bold":true}
@@ -184,8 +184,8 @@ execute as @a[tag=options_visible,tag=option_selected] if score @s option_sel_cd
 #View sidebar info
 execute as @a[tag=options_visible,tag=option_selected] if score @s option_sel_cd matches 0 if score @s hotbar_slot matches 5 run function koyc:sidebar_info/toggle
 
-#Demo
-execute as @a[tag=options_visible,tag=option_selected] if score @s option_sel_cd matches 0 if score @s hotbar_slot matches 6 run title @s actionbar {"text":"Sneak and look straight down to bring back this menu again","color":"white","bold":true}
+#Go AFK
+execute as @a[tag=options_visible,tag=option_selected] if score @s option_sel_cd matches 0 if score @s hotbar_slot matches 6 run function koyc:afk/afk_setme
 
 #Disable options menu
 execute as @a[tag=options_visible,tag=option_selected] if score @s option_sel_cd matches 0 if score @s hotbar_slot matches 7 run function koyc:options_menu/disable

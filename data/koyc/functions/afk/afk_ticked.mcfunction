@@ -1,0 +1,1 @@
+execute if score ticks_fourtieths ticks_fourtieths matches 0 run function koyc:afk/afk_check

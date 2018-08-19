@@ -4,6 +4,15 @@ execute as @a[tag=flying] if score @s flying matches 0 run tag @s remove flying
 
 #Let flying players see their bossbar
 bossbar set minecraft:elytra_durability_weweregroot players @a[name=WeWereGroot,tag=flying]
+bossbar set minecraft:elytra_durability_therezziehunter players @a[name=TheRezzieHunter,tag=flying]
+bossbar set minecraft:elytra_durability_smoler players @a[name=Smoler,tag=flying]
+bossbar set minecraft:elytra_durability_phino01 players @a[name=Phino01,tag=flying]
+bossbar set minecraft:elytra_durability_invictus13 players @a[name=Invictus13,tag=flying]
+bossbar set minecraft:elytra_durability_eyewasgroot players @a[name=EyeWasGroot,tag=flying]
+bossbar set minecraft:elytra_durability_mimilleboldby players @a[name=MimilLeBoldBoy,tag=flying]
+bossbar set minecraft:elytra_durability_ecctheenderman players @a[name=EccTheEnderman,tag=flying]
+bossbar set minecraft:elytra_durability_mr_organic_97 players @a[name=Mr_Organic_97,tag=flying]
+bossbar set minecraft:elytra_durability_iamno_one players @a[name=IAmNo_One,tag=flying]
 
 #Calculate players' elytra damage values
 scoreboard players set @a[tag=flying] dur_elytra 432

@@ -3,11 +3,9 @@ execute as @a if score @s pvp_overworld matches 0 run scoreboard players set @s 
 execute as @a if score @s pvp_nether matches 0 run scoreboard players set @s pvp_nether 1
 execute as @a if score @s pvp_end matches 0 run scoreboard players set @s pvp_end 1
 
-#Reject PvP Changes in combat mode, facing up
+#Reject PvP Changes in combat mode
 execute as @a[tag=enable_pvp,tag=combat_mode] run title @s actionbar {"text":"Cannot change PvP combat when combat mode is enabled","color":"red","bold":true}
 execute as @a[tag=enable_pvp,tag=combat_mode] at @s run playsound koyc:failure master @s
-
-#Reject PvP Changes in combat mode, facing down
 execute as @a[tag=disable_pvp,tag=combat_mode] run title @s actionbar {"text":"Cannot change PvP combat when combat mode is enabled","color":"red","bold":true}
 execute as @a[tag=disable_pvp,tag=combat_mode] at @s run playsound koyc:failure master @s
 

@@ -10,7 +10,6 @@ scoreboard players set converter cm_to_km 100000
 scoreboard objectives add sidebar_timer minecraft.custom:minecraft.play_one_minute "Sidebar timer"
 scoreboard objectives add armour armor "Armour points"
 scoreboard objectives add health health "Health points"
-scoreboard objectives modify health rendertype hearts
 scoreboard objectives add food food "Food points"
 scoreboard objectives add logins minecraft.custom:minecraft.leave_game "Times logged in"
 scoreboard objectives add ticks_played minecraft.custom:minecraft.play_one_minute

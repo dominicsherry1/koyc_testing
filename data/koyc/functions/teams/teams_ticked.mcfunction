@@ -1,13 +1,15 @@
 #Overworld
-execute as @a[nbt={Dimension:0},nbt=!{ActiveEffects:[{Id:14b}]},team=!overworld] if score @s pvp_overworld matches 1 run team join overworld @s
-execute as @a[nbt={Dimension:0},team=!overworld_safe] if score @s pvp_overworld matches -1 run team join overworld_safe @s
+team join overworld @a[nbt={Dimension:0},nbt=!{ActiveEffects:[{Id:14b}]},team=!overworld,scores={afk_counter=..3599,pvp_overworld=1}]
+team join overworld_safe @a[nbt={Dimension:0},nbt=!{ActiveEffects:[{Id:14b}]},team=!overworld_safe,scores={afk_counter=..3599,pvp_overworld=-1}]
 #Nether
-execute as @a[nbt={Dimension:-1},nbt=!{ActiveEffects:[{Id:14b}]},team=!nether] if score @s pvp_nether matches 1 run team join nether @s
-execute as @a[nbt={Dimension:-1},team=!nether_safe] if score @s pvp_nether matches -1 run team join nether_safe @s
+team join nether @a[nbt={Dimension:-1},nbt=!{ActiveEffects:[{Id:14b}]},team=!nether,scores={afk_counter=..3599,pvp_nether=1}]
+team join nether_safe @a[nbt={Dimension:-1},nbt=!{ActiveEffects:[{Id:14b}]},team=!nether_safe,scores={afk_counter=..3599,pvp_nether=-1}]
 #End
-execute as @a[nbt={Dimension:1},nbt=!{ActiveEffects:[{Id:14b}]},team=!end] if score @s pvp_end matches 1 run team join end @s
-execute as @a[nbt={Dimension:1},team=!end_safe] if score @s pvp_end matches -1 run team join end_safe @s
+team join end @a[nbt={Dimension:1},nbt=!{ActiveEffects:[{Id:14b}]},team=!end,scores={afk_counter=..3599,pvp_end=1}]
+team join end_safe @a[nbt={Dimension:1},nbt=!{ActiveEffects:[{Id:14b}]},team=!end_safe,scores={afk_counter=..3599,pvp_end=-1}]
 #Invisible
-execute as @a[nbt={Dimension:0,ActiveEffects:[{Id:14b}]},team=!invisible] if score @s pvp_overworld matches 1 run team join invisible @s
-execute as @a[nbt={Dimension:-1,ActiveEffects:[{Id:14b}]},team=!invisible] if score @s pvp_nether matches 1 run team join invisible @s
-execute as @a[nbt={Dimension:1,ActiveEffects:[{Id:14b}]},team=!invisible] if score @s pvp_end matches 1 run team join invisible @s
+team join invisible @a[nbt={ActiveEffects:[{Id:14b}]},team=!invisible]
+#AFK
+team join overworld_afk @a[scores={afk_counter=3600..},nbt={Dimension:0},nbt=!{ActiveEffects:[{Id:14b}]},team=!afk_overworld]
+team join nether_afk @a[scores={afk_counter=3600..},nbt={Dimension:-1},nbt=!{ActiveEffects:[{Id:14b}]},team=!afk_overworld]
+team join end_afk @a[scores={afk_counter=3600..},nbt={Dimension:1},nbt=!{ActiveEffects:[{Id:14b}]},team=!afk_overworld]

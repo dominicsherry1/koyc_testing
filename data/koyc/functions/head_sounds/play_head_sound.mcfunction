@@ -35,10 +35,14 @@ execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOw
 execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOwner:{Id:"8f718637-6901-4301-bd98-ebde0cc19ed8"}}}]}] at @s if score @s jumping_heads matches 1.. run playsound minecraft:entity.cod.flop neutral @a
 #Cow
 execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOwner:{Id:"97ddf3b3-9dbe-4a3b-8a0f-1b19ddeac0bd"}}}]}] at @s if score @s jumping_heads matches 1.. run playsound minecraft:entity.cow.ambient neutral @a
-#creeper
+#Creeper
 execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOwner:{Id:"f9318e11-a0c7-4cfd-85c9-2b2852e1a8b0"}}}]}] at @s if score @s jumping_heads matches 1.. run playsound koyc:entity.creeper.random hostile @a
+#Dolphin
+execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOwner:{Id:"8b7ccd6d-36de-47e0-8d5a-6f6799c6feb8"}}}]}] at @s if score @s jumping_heads matches 1.. run playsound minecraft:entity.dolphin.ambient_water neutral @a
 #Donkey
 execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOwner:{Id:"1139f336-6575-4e51-a762-3baebb4dd2d0"}}}]}] at @s if score @s jumping_heads matches 1.. run playsound minecraft:entity.donkey.ambient neutral @a
+#Drowned
+execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOwner:{Id:"2f169660-61be-46bd-acb5-1abef9fe5731"}}}]}] at @s if score @s jumping_heads matches 1.. run playsound minecraft:entity.drowned.ambient hostile @a
 #Elder Gaurdian
 execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOwner:{Id:"f2e933a7-614f-44e0-bf18-289b102104ab"}}}]}] at @s if score @s jumping_heads matches 1.. run playsound minecraft:entity.elder_gaurdian.ambient hostile @a
 #Enderman
@@ -80,6 +84,8 @@ execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOw
 execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOwner:{Id:"2a8680dd-7875-4c83-810a-5b866a3d4433"}}}]}] at @s if score @s jumping_heads matches 1.. run playsound minecraft:entity.parrot.ambient neutral @a
 execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOwner:{Id:"b95a9198-cf0b-4cfa-bf6d-2f172dc6ee65"}}}]}] at @s if score @s jumping_heads matches 1.. run playsound minecraft:entity.parrot.ambient neutral @a
 execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOwner:{Id:"d890586d-3e18-41fc-a93d-9040dc25409b"}}}]}] at @s if score @s jumping_heads matches 1.. run playsound minecraft:entity.parrot.ambient neutral @a
+#Phantom
+execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOwner:{Id:"9290add8-c291-4a5a-8f8a-594f165406a3"}}}]}] at @s if score @s jumping_heads matches 1.. run playsound minecraft:entity.phantom.ambient hostile @a
 #Pig
 execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOwner:{Id:"e1e1c2e4-1ed2-473d-bde2-3ec718535399"}}}]}] at @s if score @s jumping_heads matches 1.. run playsound minecraft:entity.pig.ambient neutral @a
 #Polar Bear
@@ -132,6 +138,8 @@ execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOw
 execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOwner:{Id:"644c9bad-958b-43ce-9d2f-199d85be607c"}}}]}] at @s if score @s jumping_heads matches 1.. run playsound minecraft:entity.stray.ambient hostile @a
 #Tropical Fish
 execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOwner:{Id:"7b314fba-09ab-4ab6-b956-cec6a5fcbed5"}}}]}] at @s if score @s jumping_heads matches 1.. run playsound minecraft:entity.tropical_fish.flop neutral @a
+#Turtle
+execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOwner:{Id:"245f22b4-2c7c-4a9c-86fa-9ec64c54e4fa"}}}]}] at @s if score @s jumping_heads matches 1.. run playsound minecraft:entity.turtle.ambient_land neutral @a
 #Vex
 execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOwner:{Id:"f6e25015-1a90-46eb-88b7-ce3f14bf00d4"}}}]}] at @s if score @s jumping_heads matches 1.. run playsound minecraft:entity.vex.ambient hostile @a
 #Villager

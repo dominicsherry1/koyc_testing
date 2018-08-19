@@ -1,4 +1,3 @@
-#ticked0 to ticked11, get 3 commands each, 12-39 get 2
 #Bat
 data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"e2d4c388-42d5-4a96-b4c9-623df7f5e026"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"Bat Head\",\"italic\":false}"}}}, PickupDelay: 0s}
 #Blaze

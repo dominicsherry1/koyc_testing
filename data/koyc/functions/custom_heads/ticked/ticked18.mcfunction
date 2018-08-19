@@ -1,3 +1,5 @@
 data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"583daed4-25cc-4cfe-9e92-56ae34076769"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"White Rabbit Head\",\"italic\":false}"}}}, PickupDelay: 0s}
 #Salmon
 data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"e246c06c-5d6a-4fd9-b600-c6bd71336b7a"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"Salmon Head\",\"italic\":false}"}}}, PickupDelay: 0s}
+#Drowned
+data merge entity @e[type=item,nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:"2f169660-61be-46bd-acb5-1abef9fe5731"}}}},sort=nearest,limit=1] {Item:{tag:{display: {Name: "{\"text\":\"Drowned Head\",\"italic\":false}"}}}, PickupDelay: 0s}

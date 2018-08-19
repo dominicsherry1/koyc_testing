@@ -1,12 +1,14 @@
 {
   "values": [
+  	"koyc:afk/afk_ticked",
   	"koyc:datapack/datapack_ticked",
 	"koyc:armour_stands/armour_stands_ticked",
+	"koyc:autoplant/autoplant_ticked",
 	"koyc:custom_heads/custom_heads_ticked",
-	"koyc:deathpoints/deathpoints_ticked",
 	"koyc:durability_indicators/durability_indicators_ticked",
 	"koyc:head_sounds/head_sounds_ticked",
 	"koyc:no_bgm_for_jukeboxes/no_bgm_for_jukeboxes_ticked",
+	"koyc:no_pickup_delay/no_pickup_delay_ticked",
 	"koyc:one_player_sleeping/one_player_sleeping_ticked",
 	"koyc:pvp_toggle/pvp_toggle_ticked",
 	"koyc:safe_creepers/safe_creepers_ticked",
