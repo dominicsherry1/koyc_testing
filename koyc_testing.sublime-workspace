@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"shovel",
+				"shovel_now"
+			],
+			[
+				"infest",
+				"infested_mossy_stone_bricks"
+			],
+			[
 				"show",
 				"showAllCSRs"
 			],
@@ -452,124 +460,183 @@
 			}
 		},
 		{
-			"file": "data/koyc/recipes/dead_brain_coral_block.json",
+			"file": "data/koyc/tags/blocks/solid_full.json",
 			"settings":
 			{
-				"buffer_size": 261,
+				"buffer_size": 6876,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "data/koyc/recipes/dead_bubble_coral_block.json",
+			"file": "data/koyc/tags/blocks/can_place_redstone_dust.json",
 			"settings":
 			{
-				"buffer_size": 264,
+				"buffer_size": 6951,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "data/koyc/recipes/dead_horn_coral_block.json",
+			"file": "/C/Users/dsher/minecraft/datapacks/koyc_full/data/koyc/tags/blocks/can_place_redstone_dust.json",
 			"settings":
 			{
-				"buffer_size": 258,
+				"buffer_size": 6951,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "data/koyc/recipes/coal_ore.json",
+			"file": "/C/Users/dsher/minecraft/datapacks/koyc_full/data/koyc/tags/blocks/solid_full.json",
 			"settings":
 			{
-				"buffer_size": 220,
+				"buffer_size": 6876,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "data/minecraft/loot_tables/entities/tropical_fish.json",
+			"file": "/S/Desktop/server.properties",
 			"settings":
 			{
-				"buffer_size": 1192,
+				"buffer_size": 1170,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Users/dsher/AppData/Local/Temp/7zO026D139F/cod.json",
+			"file": "data/koyc/tags/items/items.json",
 			"settings":
 			{
-				"buffer_size": 1238,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "data/minecraft/tags/functions/tick.json",
-			"settings":
-			{
-				"buffer_size": 741,
+				"buffer_size": 2309,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "data/koyc/functions/afk/afk_check.mcfunction",
+			"file": "/C/Users/dsher/minecraft/resourcepacks/§cK§9O§dY§aC §eServer §9V§l1.0§r§o/assets/koyc/sounds.json",
 			"settings":
 			{
-				"buffer_size": 1613,
+				"buffer_size": 4146,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/dsher/minecraft/resourcepacks/KOYC Server V1.0/assets/koyc/sounds.json",
+			"settings":
+			{
+				"buffer_size": 2661,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/dsher/minecraft/resourcepacks/KOYC Server V1.0/assets/minecraft/sounds.json",
+			"settings":
+			{
+				"buffer_size": 182,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/koyc/functions/datapack/disable_vanilla_setup.mcfunction",
+			"settings":
+			{
+				"buffer_size": 24,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/koyc/functions/golden_opportunity/golden_opportunity_setup.mcfunction",
+			"settings":
+			{
+				"buffer_size": 517,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "data/koyc/functions/pvp_toggle/pvp_toggle_setup.mcfunction",
+			"file": "data/koyc/functions/golden_opportunity/golden_opportunity_ticked.mcfunction",
 			"settings":
 			{
-				"buffer_size": 212,
+				"buffer_size": 497,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "data/koyc/functions/teams/teams_setup.mcfunction",
+			"file": "data/koyc/functions/golden_opportunity/find_block.mcfunction",
 			"settings":
 			{
-				"buffer_size": 1555,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "team add overworld"
-			}
-		},
-		{
-			"file": "data/koyc/functions/afk/afk_setme.mcfunction",
-			"settings":
-			{
-				"buffer_size": 178,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "scoreboard players set @s afk_counter 3600"
-			}
-		},
-		{
-			"file": "data/koyc/functions/options_menu/options_menu_ticked.mcfunction",
-			"settings":
-			{
-				"buffer_size": 23825,
+				"buffer_size": 285,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "data/minecraft/tags/functions/load.json",
+			"file": "data/koyc/functions/golden_opportunity/mine_blocks.mcfunction",
 			"settings":
 			{
-				"buffer_size": 898,
+				"buffer_size": 256,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "data/koyc/functions/combat_mode/enable.mcfunction",
+			"file": "data/koyc/functions/golden_opportunity/mine_block.mcfunction",
+			"settings":
+			{
+				"buffer_size": 1666,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/koyc/functions/golden_opportunity/raycast_block.mcfunction",
+			"settings":
+			{
+				"buffer_size": 711,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/koyc/functions/golden_opportunity/raycast_dirt.mcfunction",
+			"settings":
+			{
+				"buffer_size": 740,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/koyc/functions/golden_opportunity/shovel_block.mcfunction",
+			"settings":
+			{
+				"buffer_size": 3183,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/koyc/functions/golden_opportunity/chop_block.mcfunction",
+			"settings":
+			{
+				"buffer_size": 995,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/koyc/functions/datapack/datapack_setup.mcfunction",
+			"settings":
+			{
+				"buffer_size": 653,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/koyc/functions/datapack/rng.mcfunction",
 			"settings":
 			{
 				"buffer_size": 318,
@@ -578,19 +645,135 @@
 			}
 		},
 		{
-			"file": "data/koyc/functions/teams/teams_ticked.mcfunction",
+			"file": "data/koyc/functions/golden_opportunity/mine_vein.mcfunction",
 			"settings":
 			{
-				"buffer_size": 1265,
+				"buffer_size": 154,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "data/koyc/functions/pvp_toggle/pvp_toggle_ticked.mcfunction",
+			"file": "data/koyc/functions/golden_opportunity/find_dirt.mcfunction",
 			"settings":
 			{
-				"buffer_size": 4892,
+				"buffer_size": 286,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/koyc/functions/golden_opportunity/shovel_dirt.mcfunction",
+			"settings":
+			{
+				"buffer_size": 262,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/koyc/tags/blocks/shovelable.json",
+			"settings":
+			{
+				"buffer_size": 895,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/koyc/tags/blocks/shovelable_no_fortune.json",
+			"settings":
+			{
+				"buffer_size": 873,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/koyc/tags/blocks/shovelable_no_silk_touch.json",
+			"settings":
+			{
+				"buffer_size": 734,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/koyc/tags/blocks/mineable.json",
+			"settings":
+			{
+				"buffer_size": 2583,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/koyc/tags/items/mineable.json",
+			"settings":
+			{
+				"buffer_size": 2583,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/koyc/tags/items/shovelable.json",
+			"settings":
+			{
+				"buffer_size": 895,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/koyc/functions/golden_opportunity/mine_vein_block.mcfunction",
+			"settings":
+			{
+				"buffer_size": 2081,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/koyc/tags/items/vein_mining.json",
+			"settings":
+			{
+				"buffer_size": 76,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/koyc/functions/golden_opportunity/find_vein.mcfunction",
+			"settings":
+			{
+				"buffer_size": 819,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/koyc/tags/blocks/vein_mining.json",
+			"settings":
+			{
+				"buffer_size": 43,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/minecraft/tags/functions/load.json",
+			"settings":
+			{
+				"buffer_size": 952,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/minecraft/tags/functions/tick.json",
+			"settings":
+			{
+				"buffer_size": 795,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -603,15 +786,6 @@
 				"encoding": "UTF-8",
 				"line_ending": "Windows",
 				"name": "scoreboard players set @a[scores={afk_crouch=1..}]"
-			}
-		},
-		{
-			"file": "data/koyc/functions/sidebar_info/sidebar_info_setup.mcfunction",
-			"settings":
-			{
-				"buffer_size": 6227,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -626,6 +800,22 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"package remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
 			[
 				"package remo",
 				"Package Control: Remove Package"
@@ -667,16 +857,8 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"package remove",
-				"Package Control: Remove Channel"
-			],
-			[
 				"Package Control: ",
 				"Package Control: List Packages"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"packa",
@@ -762,17 +944,67 @@
 		"/C/Users/dsher/minecraft/datapacks/koyc_testing",
 		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data",
 		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/datapack",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/golden_opportunity",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/sidebar_info",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/teams",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/world_seed",
 		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/loot_tables",
 		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/loot_tables/entities",
-		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/loot_tables/entities/cat",
-		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/recipes",
 		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/tags",
 		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/tags/blocks",
 		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/tags/functions",
-		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/tags/items"
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/tags/items",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/minecraft",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/minecraft/tags",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/minecraft/tags/blocks",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/minecraft/tags/functions"
 	],
 	"file_history":
 	[
+		"/S/Google Drive/Documents/minecraft/minecraft 1.13.1 syntax highlighter/1.13.1 syntax listing.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/tags/blocks/shovelable_silk_touch.json",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/tags/items/junk.json",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/autoplant/autoplant_ticked.mcfunction",
+		"/C/Users/dsher/AppData/Local/Temp/Temp1_Gravestones_1.0.zip/data/vb/functions/gravestones/gravestones.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/tree_chopper/chop_block.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/tags/blocks/vein_mining_raycast.json",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/tree_chopper/tree_chopper_setup.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/golden_opportunity/chop_block.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/golden_opportunity/tree_chopper_setup.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/golden_opportunity/find_tree.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/golden_opportunity/chop_tree.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/golden_opportunity/find_vein.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/golden_opportunity/mine_vein.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/golden_opportunity/mine_block.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/tags/blocks/vein_mining.json",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/tags/blocks/air.json",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/recipes/dead_brain_coral_block.json",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/recipes/dead_bubble_coral_block.json",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/recipes/dead_horn_coral_block.json",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/minecraft/loot_tables/entities/tropical_fish.json",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/minecraft/tags/functions/tick.json",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/afk/afk_check.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/pvp_toggle/pvp_toggle_setup.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/teams/teams_setup.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/afk/afk_setme.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/options_menu/options_menu_ticked.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/minecraft/tags/functions/load.json",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/combat_mode/enable.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/teams/teams_ticked.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/pvp_toggle/pvp_toggle_ticked.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/sidebar_info/sidebar_info_setup.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/golden_opportunity/tree_chopper_ticked.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/tree_chopper/chop_tree.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/tree_chopper/find_tree.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/tree_chopper/tree_chopper_ticked.mcfunction",
+		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/koyc/functions/tree_chopper/tree_chopper_initialise.mcfunction",
+		"/C/Users/dsher/AppData/Local/Temp/Temp2_terracotta rotation wrench.zip/data/minecraft/tags/functions/load.json",
+		"/C/Users/dsher/AppData/Local/Temp/Temp2_terracotta rotation wrench.zip/data/main/tags/functions/tick.json",
+		"/C/Users/dsher/AppData/Local/Temp/Temp2_terracotta rotation wrench.zip/data/main/tags/functions/init.json",
+		"/C/Users/dsher/AppData/Local/Temp/Temp2_terracotta rotation wrench.zip/data/wrench/recipes/wrench.json",
+		"/C/Users/dsher/AppData/Local/Temp/7zO026D139F/cod.json",
 		"/C/Users/dsher/minecraft/datapacks/koyc_testing/data/minecraft/loot_tables/entities/fish.json",
 		"/C/Users/dsher/AppData/Local/Temp/7zO0269EF3E/cod.json",
 		"/C/Users/dsher/minecraft/datapacks/terracotta rotation wrench/data/minecraft/tags/functions/tick.json",
@@ -858,49 +1090,7 @@
 		"/C/dev/gecsr_management/frontend/gecsr_management/test/bit/Plm_management.js",
 		"/C/dev/gecsr_management/frontend/gecsr_management/test/unit/index.html",
 		"/C/dev/gecsr_management/frontend/gecsr_management/test/unit/Plm_management.js",
-		"/C/dev/gecsr_management/backend/src/main/resources/application.properties",
-		"/C/dev/gecsr_management/backend/target/classes/application.properties",
-		"/C/dev/gecsr_management/frontend/reports/target/optimize/reports/Reports.js",
-		"/C/dev/gecsr_management/frontend/reports/target/package/reports/Reports.js",
-		"/C/dev/gecsr_management/frontend/reports/target/reports/unit/cobertura.xml",
-		"/C/dev/gecsr_management/frontend/reports/target/reports/unit/jscover.lcov",
-		"/C/dev/gecsr_management/frontend/reports/target/src/reports/Reports.js",
-		"/C/dev/gecsr_management/frontend/gecsr_management/src/gecsr_management/regions/main/Main.js",
-		"/C/dev/gecsr_management/backend/WebContent/help/en-us/plm_management/site.xml",
-		"/C/dev/gecsr_management/frontend/gecsr_management/.cdt/require.config.js",
-		"/C/dev/gecsr_management/frontend/gecsr_management/help/en-us/plm_management/site.xml",
-		"/C/dev/gecsr_management/frontend/buildOutput/plm_management/Plm_management.js",
-		"/C/dev/gecsr_management/frontend/buildOutput/plm_management/config.json",
-		"/C/dev/gecsr_management/frontend/buildOutput/plm_management/config.js",
-		"/C/dev/gecsr_management/frontend/buildOutput/plm_management/cdt.json",
-		"/C/dev/gecsr_management/frontend/buildOutput/help/en-us/plm_management/site.xml",
-		"/C/dev/gecsr_management/backend/WebContent/plm_management/Plm_management.js",
-		"/C/dev/gecsr_management/backend/WebContent/plm_management/config.json",
-		"/C/dev/gecsr_management/backend/WebContent/plm_management/config.js",
-		"/C/dev/gecsr_management/backend/WebContent/plm_management/cdt.json",
-		"/C/dev/gecsr_management/backend/target/m2e-wtp/web-resources/META-INF/maven/plm_management/plm_management/pom.xml",
-		"/C/dev/gecsr_management/backend/target/m2e-wtp/web-resources/META-INF/maven/plm_management/plm_management/pom.properties",
-		"/C/dev/gecsr_management/frontend/gecsr_management/src/plm_management/widgets/EmergencyCSRInput/EmergencyCSRInput.js",
-		"/C/dev/gecsr_management/frontend/gecsr_management/src/plm_management/widgets/CSRSearch/CSRSearch.js",
-		"/C/dev/gecsr_management/frontend/gecsr_management/src/plm_management/widgets/CDTExtensions/SmallInputBox/SmallInputBox.js",
-		"/C/dev/gecsr_management/frontend/gecsr_management/src/plm_management/widgets/CDTExtensions/Selectbox/Selectbox.js",
-		"/C/dev/gecsr_management/frontend/gecsr_management/src/plm_management/widgets/CDTExtensions/Notification/Notification.js",
-		"/C/dev/gecsr_management/frontend/gecsr_management/src/plm_management/widgets/CDTExtensions/LargeInputBox/LargeInputBox.js",
-		"/C/dev/gecsr_management/frontend/gecsr_management/src/plm_management/widgets/CDTExtensions/Combobox/Combobox.js",
-		"/C/dev/gecsr_management/frontend/gecsr_management/src/plm_management/widgets/CDTExtensions/Buttons/YesButton/YesButton.js",
-		"/C/dev/gecsr_management/frontend/gecsr_management/src/plm_management/widgets/CDTExtensions/Buttons/SubmitButton/SubmitButton.js",
-		"/C/dev/gecsr_management/frontend/gecsr_management/src/plm_management/widgets/CDTExtensions/Buttons/SearchButton/SearchButton.js",
-		"/C/dev/gecsr_management/frontend/gecsr_management/src/plm_management/widgets/CDTExtensions/Buttons/OkButton/OkButton.js",
-		"/C/dev/gecsr_management/frontend/gecsr_management/src/plm_management/widgets/CDTExtensions/Buttons/NoButton/NoButton.js",
-		"/C/dev/gecsr_management/frontend/gecsr_management/src/plm_management/widgets/CDTExtensions/Buttons/CancelButton/CancelButton.js",
-		"/C/dev/gecsr_management/frontend/gecsr_management/src/plm_management/widgets/CDTExtensions/Buttons/AddButton/AddButton.js",
-		"/C/dev/gecsr_management/frontend/gecsr_management/src/plm_management/widgets/AddServer/AddServer.js",
-		"/C/dev/gecsr_management/frontend/gecsr_management/src/plm_management/regions/main/Main.js",
-		"/C/dev/gecsr_management/frontend/gecsr_management/src/plm_management/Plm_management.js",
-		"/C/dev/gecsr_management/frontend/plm_management/src/plm_management/widgets/CDTExtensions/Selectbox/Selectbox.js",
-		"/C/dev/gecsr_management/frontend/plm_management/src/plm_management/Plm_management.js",
-		"/C/dev/gecsr_management/backend/plm_management/WebContent/config.js",
-		"/C/dev/gecsr_management/frontend/plm_management/login/resources/template.html"
+		"/C/dev/gecsr_management/backend/src/main/resources/application.properties"
 	],
 	"find":
 	{
@@ -919,6 +1109,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"find_dirt",
+			"chop_block",
+			"blocks_chopped",
+			"#minecraft:logs",
+			"tree_chopper",
+			"button",
+			"pressure_plate",
+			"minecraft:air",
+			"dead_",
+			"glazed_terracotta",
+			"stripped_",
+			"log",
 			"koyc:notification",
 			"koyc:failure",
 			"Go AFK",
@@ -931,6 +1133,19 @@
 		"regex": false,
 		"replace_history":
 		[
+			"find_block",
+			"mine_block",
+			"blocks_mined",
+			"#koyc:vein_mining",
+			"golden_opportunity",
+			"trapdoor",
+			"button",
+			"#koyc:air",
+			"",
+			"concrete_powder",
+			"concrete",
+			"",
+			"wood"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -941,7 +1156,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 24,
 			"sheets":
 			[
 				{
@@ -971,7 +1186,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 43,
 					"type": "text"
 				},
 				{
@@ -998,10 +1213,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1124.8,
+						"translation.y": 1125.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 42,
 					"type": "text"
 				},
 				{
@@ -1031,7 +1246,7 @@
 						"translation.y": 989.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 41,
 					"type": "text"
 				},
 				{
@@ -1061,7 +1276,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 40,
 					"type": "text"
 				},
 				{
@@ -1090,7 +1305,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 39,
 					"type": "text"
 				},
 				{
@@ -1120,7 +1335,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 38,
 					"type": "text"
 				},
 				{
@@ -1150,24 +1365,754 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 37,
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "data/koyc/recipes/dead_brain_coral_block.json",
+					"file": "data/koyc/tags/blocks/solid_full.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 261,
+						"buffer_size": 6876,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								238,
-								238
+								4243,
+								4243
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 349.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 30,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "data/koyc/tags/blocks/can_place_redstone_dust.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6951,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								6951
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 349.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Users/dsher/minecraft/datapacks/koyc_full/data/koyc/tags/blocks/can_place_redstone_dust.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6951,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4243,
+								4243
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3374.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 33,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/Users/dsher/minecraft/datapacks/koyc_full/data/koyc/tags/blocks/solid_full.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6876,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4243,
+								4243
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3374.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 32,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/S/Desktop/server.properties",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1170,
+								1170
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/JavaProperties.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 600.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 31,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "data/koyc/tags/items/items.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2309,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1906,
+								1906
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1464.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 36,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/Users/dsher/minecraft/resourcepacks/§cK§9O§dY§aC §eServer §9V§l1.0§r§o/assets/koyc/sounds.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110,
+								110
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\resourcepacks\\§cK§9O§dY§aC §eServer §9V§l1.0§r§o",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 35,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/C/Users/dsher/minecraft/resourcepacks/KOYC Server V1.0/assets/koyc/sounds.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2661,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								106,
+								106
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3300.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 34,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/C/Users/dsher/minecraft/resourcepacks/KOYC Server V1.0/assets/minecraft/sounds.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "data/koyc/functions/datapack/disable_vanilla_setup.mcfunction",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 24,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "data/koyc/functions/golden_opportunity/golden_opportunity_setup.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 517,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								517,
+								472
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "data/koyc/functions/golden_opportunity/golden_opportunity_ticked.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								365,
+								365
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "data/koyc/functions/golden_opportunity/find_block.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								139,
+								139
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "data/koyc/functions/golden_opportunity/mine_blocks.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								256,
+								256
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "data/koyc/functions/golden_opportunity/mine_block.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1666,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1343,
+								1343
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "data/koyc/functions/golden_opportunity/raycast_block.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 711,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								636,
+								636
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "data/koyc/functions/golden_opportunity/raycast_dirt.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								74,
+								74
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "data/koyc/functions/golden_opportunity/shovel_block.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								958,
+								958
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
+							"syntax": "Packages/User/minecraft-command-syntax.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "data/koyc/functions/golden_opportunity/chop_block.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 995,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								122,
+								122
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "data/koyc/functions/datapack/datapack_setup.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 653,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								503,
+								503
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 122.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "data/koyc/functions/datapack/rng.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 318,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								214,
+								214
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "data/koyc/functions/golden_opportunity/mine_vein.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								154,
+								154
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "data/koyc/functions/golden_opportunity/find_dirt.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								286,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"file": "data/koyc/functions/golden_opportunity/shovel_dirt.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								262
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 31,
+					"file": "data/koyc/tags/blocks/shovelable.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 895,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								895
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 397.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 32,
+					"file": "data/koyc/tags/blocks/shovelable_no_fortune.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 873,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
 							]
 						],
 						"settings":
@@ -1184,20 +2129,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "data/koyc/recipes/dead_bubble_coral_block.json",
+					"buffer": 33,
+					"file": "data/koyc/tags/blocks/shovelable_no_silk_touch.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 264,
+						"buffer_size": 734,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								240,
-								240
+								103,
+								103
 							]
 						],
 						"settings":
@@ -1214,20 +2159,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "data/koyc/recipes/dead_horn_coral_block.json",
+					"buffer": 34,
+					"file": "data/koyc/tags/blocks/mineable.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 258,
+						"buffer_size": 2583,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								236,
-								236
+								102,
+								102
 							]
 						],
 						"settings":
@@ -1240,24 +2185,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "data/koyc/recipes/coal_ore.json",
-					"semi_transient": true,
+					"buffer": 35,
+					"file": "data/koyc/tags/items/mineable.json",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 220,
+						"buffer_size": 2583,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								220
+								131,
+								108
 							]
 						],
 						"settings":
@@ -1270,84 +2215,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "data/minecraft/loot_tables/entities/tropical_fish.json",
+					"buffer": 36,
+					"file": "data/koyc/tags/items/shovelable.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1192,
+						"buffer_size": 895,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1187,
-								1187
-							]
-						],
-						"settings":
-						{
-							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 964.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "/C/Users/dsher/AppData/Local/Temp/7zO026D139F/cod.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1238,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								16,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "data/minecraft/tags/functions/tick.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 741,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								94,
-								94
+								59,
+								59
 							]
 						],
 						"settings":
@@ -1364,41 +2249,71 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
-					"file": "data/koyc/functions/afk/afk_check.mcfunction",
+					"buffer": 37,
+					"file": "data/koyc/functions/golden_opportunity/mine_vein_block.mcfunction",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1613,
+						"buffer_size": 2081,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								432,
-								432
+								134,
+								134
 							]
 						],
 						"settings":
 						{
 							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/User/minecraft-command-syntax.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
-					"file": "data/koyc/functions/pvp_toggle/pvp_toggle_setup.mcfunction",
+					"buffer": 38,
+					"file": "data/koyc/tags/items/vein_mining.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 212,
+						"buffer_size": 76,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								71,
+								71
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 39,
+					"file": "data/koyc/functions/golden_opportunity/find_vein.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 819,
 						"regions":
 						{
 						},
@@ -1418,105 +2333,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "data/koyc/functions/teams/teams_setup.mcfunction",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1555,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								186,
-								186
-							]
-						],
-						"settings":
-						{
-							"auto_name": "team add overworld",
-							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 300.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 18,
-					"type": "text"
-				},
-				{
-					"buffer": 17,
-					"file": "data/koyc/functions/afk/afk_setme.mcfunction",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 178,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								135,
-								135
-							]
-						],
-						"settings":
-						{
-							"auto_name": "scoreboard players set @s afk_counter 3600",
-							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"file": "data/koyc/functions/options_menu/options_menu_ticked.mcfunction",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 23825,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								22973,
-								22973
-							]
-						],
-						"settings":
-						{
-							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 7524.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 19,
-					"file": "data/minecraft/tags/functions/load.json",
+					"buffer": 40,
+					"file": "data/koyc/tags/blocks/vein_mining.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 898,
+						"buffer_size": 43,
 						"regions":
 						{
 						},
@@ -1537,98 +2363,71 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 20,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
-					"buffer": 20,
-					"file": "data/koyc/functions/combat_mode/enable.mcfunction",
+					"buffer": 41,
+					"file": "data/minecraft/tags/functions/load.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 318,
+						"buffer_size": 952,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								251,
+								251
 							]
 						],
 						"settings":
 						{
 							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 23,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
-					"buffer": 21,
-					"file": "data/koyc/functions/teams/teams_ticked.mcfunction",
+					"buffer": 42,
+					"file": "data/minecraft/tags/functions/tick.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1265,
+						"buffer_size": 795,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								123,
-								123
+								330,
+								330
 							]
 						],
 						"settings":
 						{
 							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 27,
 					"type": "text"
 				},
 				{
-					"buffer": 22,
-					"file": "data/koyc/functions/pvp_toggle/pvp_toggle_ticked.mcfunction",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4892,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								522,
-								522
-							]
-						],
-						"settings":
-						{
-							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1050.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 22,
-					"type": "text"
-				},
-				{
-					"buffer": 23,
+					"buffer": 43,
 					"file": "data/koyc/functions/afk/afk_ticked.mcfunction",
 					"semi_transient": false,
 					"settings":
@@ -1654,36 +2453,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 24,
-					"file": "data/koyc/functions/sidebar_info/sidebar_info_setup.mcfunction",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6227,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4561,
-								4561
-							]
-						],
-						"settings":
-						{
-							"git_savvy.repo_path": "C:\\Users\\dsher\\minecraft\\datapacks\\koyc_testing",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1349.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 24,
+					"stack_index": 29,
 					"type": "text"
 				}
 			]
@@ -1695,7 +2465,7 @@
 	},
 	"input":
 	{
-		"height": 55.2
+		"height": 65.0
 	},
 	"layout":
 	{
