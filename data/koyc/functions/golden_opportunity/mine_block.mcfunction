@@ -1,4 +1,6 @@
 execute as @s[nbt=!{SelectedItem:{tag:{Enchantments:[{id: "minecraft:silk_touch"}]}}}, nbt=!{SelectedItem:{tag:{Enchantments:[{id: "minecraft:fortune"}]}}}] if block ~ ~ ~ #koyc:mineable run setblock ~ ~ ~ minecraft:air destroy
+execute as @s[nbt={SelectedItem:{tag:{Enchantments:[{id: "minecraft:fortune"}]}}}] if block ~ ~ ~ #koyc:mineable_no_fortune run setblock ~ ~ ~ minecraft:air destroy
+
 execute as @s[nbt={SelectedItem:{tag:{Enchantments:[{id: "minecraft:silk_touch"}]}}}] if block ~ ~ ~ minecraft:nether_quartz_ore run summon minecraft:item ~ ~ ~ {Item: {id: "minecraft:nether_quartz_ore", Count: 1b}}
 execute as @s[nbt={SelectedItem:{tag:{Enchantments:[{id: "minecraft:silk_touch"}]}}}] if block ~ ~ ~ minecraft:stone run summon minecraft:item ~ ~ ~ {Item: {id: "minecraft:stone", Count: 1b}}
 execute as @s[nbt={SelectedItem:{tag:{Enchantments:[{id: "minecraft:silk_touch"}]}}}] if block ~ ~ ~ minecraft:redstone_ore run summon minecraft:item ~ ~ ~ {Item: {id: "minecraft:redstone_ore", Count: 1b}}
