@@ -1,1 +1,0 @@
-execute as @r[tag=combat_mode] run tag @a[tag=!combat_mode] add combat_mode

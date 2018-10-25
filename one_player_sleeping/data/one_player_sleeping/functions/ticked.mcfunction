@@ -1,0 +1,1 @@
+execute as @p[nbt={Sleeping:1b}] if score can_sleep sleep matches 1 run function one_player_sleeping:sleep

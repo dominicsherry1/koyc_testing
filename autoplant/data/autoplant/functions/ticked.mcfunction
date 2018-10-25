@@ -1,0 +1,2 @@
+execute as @e[tag=#autoplant:plantable, nbt={Item: {Count: 1b}, OnGround: 1b}, limit=1] run function autoplant:plant
+execute as @e[tag=#autoplant:placeable, nbt={Item: {Count: 1b}}, limit=1] run function autoplant:place

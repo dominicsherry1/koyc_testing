@@ -1,1 +1,0 @@
-execute as @a if score @s tips_timer matches 4200.. if score @s tips matches 1 run scoreboard players set @s tips_timer 100

@@ -1,1 +1,0 @@
-execute as @a if score @s jumping_heads matches 1.. run function koyc:head_sounds/play_head_sound
