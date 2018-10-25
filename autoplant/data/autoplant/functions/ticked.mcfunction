@@ -1,2 +1,7 @@
-execute as @e[tag=#autoplant:plantable, nbt={Item: {Count: 1b}, OnGround: 1b}, limit=1] run function autoplant:plant
-execute as @e[tag=#autoplant:placeable, nbt={Item: {Count: 1b}}, limit=1] run function autoplant:place
+execute as @e[type=item,nbt={Item:{id: "minecraft:beetroot_seeds"}, OnGround: 1b}] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ #koyc:air run function autoplant:beetroot_seeds
+execute as @e[type=item,nbt={Item:{id: "minecraft:cactus"}, OnGround: 1b}] at @s if block ~ ~-1 ~ minecraft:sand if block ~ ~ ~ #koyc:air if block ~1 ~ ~ #koyc:air if block ~-1 ~ ~ #koyc:air if block ~ ~ ~1 #koyc:air if block ~ ~ ~-1 #koyc:air run function autoplant:cactus
+execute as @e[type=item,nbt={Item:{id: "minecraft:carrot"}, OnGround: 1b}] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ #koyc:air run function autoplant:carrot
+execute as @e[type=item,nbt={Item:{id: "minecraft:chorus_flower"}, OnGround: 1b}] at @s if block ~ ~-1 ~ minecraft:end_stone if block ~ ~ ~ #koyc:air run function autoplant:chorus_flower
+execute as @e[type=item,nbt={Item:{id: "minecraft:nether_wart"}, OnGround: 1b}] at @s if block ~ ~ ~ minecraft:soul_sand if block ~ ~1 ~ #koyc:air run function autoplant:nether_wart
+execute as @e[type=item,nbt={Item:{id: "minecraft:potato"}, OnGround: 1b}] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ #koyc:air run function autoplant:potato
+execute as @e[type=item,nbt={Item:{id: "minecraft:wheat_seeds"}, OnGround: 1b}] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ #koyc:air run function autoplant:wheat_seeds

@@ -1,0 +1,1 @@
+scoreboard objectives add crop_count dummy {"text": "Number of crops in stack"}
