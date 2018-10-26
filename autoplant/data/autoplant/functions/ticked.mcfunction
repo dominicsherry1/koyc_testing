@@ -1,7 +1,19 @@
+execute as @e[type=item,nbt={Item:{id: "minecraft:acacia_sapling"}, OnGround: 1b}] at @s if block ~ ~-1 ~ #minecraft:dirt_like if block ~ ~ ~ #koyc:air run function autoplant:acacia_sapling
+execute as @e[type=item,nbt={Item:{id: "minecraft:acacia_sapling"}, OnGround: 1b}] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ #koyc:air run function autoplant:acacia_sapling
 execute as @e[type=item,nbt={Item:{id: "minecraft:beetroot_seeds"}, OnGround: 1b}] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ #koyc:air run function autoplant:beetroot_seeds
-execute as @e[type=item,nbt={Item:{id: "minecraft:cactus"}, OnGround: 1b}] at @s if block ~ ~-1 ~ minecraft:sand if block ~ ~ ~ #koyc:air if block ~1 ~ ~ #koyc:air if block ~-1 ~ ~ #koyc:air if block ~ ~ ~1 #koyc:air if block ~ ~ ~-1 #koyc:air run function autoplant:cactus
+execute as @e[type=item,nbt={Item:{id: "minecraft:birch_sapling"}, OnGround: 1b}] at @s if block ~ ~-1 ~ #minecraft:dirt_like if block ~ ~ ~ #koyc:air run function autoplant:birch_sapling
+execute as @e[type=item,nbt={Item:{id: "minecraft:birch_sapling"}, OnGround: 1b}] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ #koyc:air run function autoplant:birch_sapling
+execute as @e[type=item,nbt={Item:{id: "minecraft:cactus"}, OnGround: 1b}] at @s if block ~ ~-1 ~ #minecraft:sand if block ~ ~ ~ #koyc:air if block ~1 ~ ~ #koyc:air if block ~-1 ~ ~ #koyc:air if block ~ ~ ~1 #koyc:air if block ~ ~ ~-1 #koyc:air run function autoplant:cactus
 execute as @e[type=item,nbt={Item:{id: "minecraft:carrot"}, OnGround: 1b}] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ #koyc:air run function autoplant:carrot
 execute as @e[type=item,nbt={Item:{id: "minecraft:chorus_flower"}, OnGround: 1b}] at @s if block ~ ~-1 ~ minecraft:end_stone if block ~ ~ ~ #koyc:air run function autoplant:chorus_flower
+execute as @e[type=item,nbt={Item:{id: "minecraft:dark_oak_sapling"}, OnGround: 1b}] at @s if block ~ ~-1 ~ #minecraft:dirt_like if block ~ ~ ~ #koyc:air run function autoplant:dark_oak_sapling
+execute as @e[type=item,nbt={Item:{id: "minecraft:dark_oak_sapling"}, OnGround: 1b}] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ #koyc:air run function autoplant:dark_oak_sapling
+execute as @e[type=item,nbt={Item:{id: "minecraft:jungle_sapling"}, OnGround: 1b}] at @s if block ~ ~-1 ~ #minecraft:dirt_like if block ~ ~ ~ #koyc:air run function autoplant:jungle_sapling
+execute as @e[type=item,nbt={Item:{id: "minecraft:jungle_sapling"}, OnGround: 1b}] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ #koyc:air run function autoplant:jungle_sapling
 execute as @e[type=item,nbt={Item:{id: "minecraft:nether_wart"}, OnGround: 1b}] at @s if block ~ ~ ~ minecraft:soul_sand if block ~ ~1 ~ #koyc:air run function autoplant:nether_wart
+execute as @e[type=item,nbt={Item:{id: "minecraft:oak_sapling"}, OnGround: 1b}] at @s if block ~ ~-1 ~ #minecraft:dirt_like if block ~ ~ ~ #koyc:air run function autoplant:oak_sapling
+execute as @e[type=item,nbt={Item:{id: "minecraft:oak_sapling"}, OnGround: 1b}] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ #koyc:air run function autoplant:oak_sapling
 execute as @e[type=item,nbt={Item:{id: "minecraft:potato"}, OnGround: 1b}] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ #koyc:air run function autoplant:potato
+execute as @e[type=item,nbt={Item:{id: "minecraft:spruce_sapling"}, OnGround: 1b}] at @s if block ~ ~-1 ~ #minecraft:dirt_like if block ~ ~ ~ #koyc:air run function autoplant:spruce_sapling
+execute as @e[type=item,nbt={Item:{id: "minecraft:spruce_sapling"}, OnGround: 1b}] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ #koyc:air run function autoplant:spruce_sapling
 execute as @e[type=item,nbt={Item:{id: "minecraft:wheat_seeds"}, OnGround: 1b}] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ #koyc:air run function autoplant:wheat_seeds
