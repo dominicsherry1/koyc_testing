@@ -1,5 +1,5 @@
 tag @a[nbt={Sleeping: 1b}] add sleep_consent
-execute unless score can_sleep sleep matches 1 run title @a actionbar {"text": "Players ", "bold": true, "color": "dark_blue", "extra": [{"selector": "@a[tag=sleep_consent]", "bold": true}, {"text": " want to sleep", "color": "dark_blue", "bold": true}]}
+execute unless score can_sleep sleep matches 1 run title @a actionbar {"selector": "@r[tag=sleep_consent, tag=!afk]", "bold": true, "extra": [{"text": " wants to sleep", "color": "dark_blue", "bold": true}]}
 
 #Get number of online players
 scoreboard players set total players_online 0
